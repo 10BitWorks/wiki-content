@@ -1,0 +1,8 @@
+# 10BitWorks Wiki Log
+
+> Chronological record of all wiki actions. Append-only.
+
+## [2026-06-14] create | Wiki initialized
+- Domain: 10BitWorks Makerspace operations and infrastructure.
+- Structure created with SCHEMA.md, index.md, log.md.
+- Initialized core entities based on IT Blueprint memory.
