@@ -4,6 +4,7 @@
 > Last updated: 2026-06-14 | Total pages: 3
 
 ## Entities
+- [[board-of-directors-2026]] - Roster of the 2026 10BitWorks Board of Directors
 - [["wiki"-vm-on-zelda-includes-npm-and-portainer]] - "Wiki" VM on Zelda (includes NPM and Portainer)
 - [[3d-printer-murderbot]] - 3D Printer (murderbot)
 - [[amcrest-turret-camera-front-of-shop]] - Amcrest turret Camera (front of shop)
