@@ -9,7 +9,7 @@ isPublished: true
 
 # Passkeys (WebAuthn)
 
-Passkeys are the primary authentication mechanism for the 10BitWorks infrastructure, managed via [[kanidm]].
+Passkeys are the primary authentication mechanism for the 10BitWorks infrastructure, managed via [kanidm](/entities/kanidm).
 
 ## Overview
 Moving away from legacy passwords and basic MFA, the infrastructure relies on WebAuthn to provide phishing-resistant, high-speed execution for member logins.
