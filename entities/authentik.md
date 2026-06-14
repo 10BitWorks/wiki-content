@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [servers]
 description: "Authentik docker stack overview"
+isPublished: true
 ---
 
 # Authentik

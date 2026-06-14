@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network, operations]
 description: "Network details and configuration for Old Door Access Controller"
+isPublished: true
 ---
 
 # Old Door Access Controller

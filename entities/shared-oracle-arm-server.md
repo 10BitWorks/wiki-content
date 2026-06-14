@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network]
 description: "Network details and configuration for Shared Oracle ARM Server"
+isPublished: true
 ---
 
 # Shared Oracle ARM Server

@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [3d-printer, network]
 description: "Network details and configuration for Sovol SV08 (3D Printer)"
+isPublished: true
 ---
 
 # Sovol SV08 (3D Printer)

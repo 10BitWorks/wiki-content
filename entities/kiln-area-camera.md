@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network, operations]
 description: "Network details and configuration for Kiln Area Camera"
+isPublished: true
 ---
 
 # Kiln Area Camera

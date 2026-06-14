@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [servers]
 description: "Loomio docker stack overview"
+isPublished: true
 ---
 
 # Loomio

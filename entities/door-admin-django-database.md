@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network, operations]
 description: "Network details and configuration for Door Admin (Django database)"
+isPublished: true
 ---
 
 # Door Admin (Django database)

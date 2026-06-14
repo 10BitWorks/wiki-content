@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network]
 description: "Network details and configuration for Connor's Phone"
+isPublished: true
 ---
 
 # Connor's Phone

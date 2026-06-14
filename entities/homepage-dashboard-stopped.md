@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network]
 description: "Network details and configuration for Homepage Dashboard (Stopped)"
+isPublished: true
 ---
 
 # Homepage Dashboard (Stopped)

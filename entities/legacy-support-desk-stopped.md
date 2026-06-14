@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network]
 description: "Network details and configuration for Legacy Support Desk (Stopped)"
+isPublished: true
 ---
 
 # Legacy Support Desk (Stopped)

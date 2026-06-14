@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network, proxmox]
 description: "Network details and configuration for Link Server (Proxmox)"
+isPublished: true
 ---
 
 # Link Server (Proxmox)

@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network, operations]
 description: "Network details and configuration for Stock Wyze Camera 3"
+isPublished: true
 ---
 
 # Stock Wyze Camera 3

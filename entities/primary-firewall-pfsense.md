@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network, pfsense]
 description: "Network details and configuration for Primary Firewall (pfSense)"
+isPublished: true
 ---
 
 # Primary Firewall (pfSense)

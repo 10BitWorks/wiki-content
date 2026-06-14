@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network]
 description: "Network details and configuration for Machine Console"
+isPublished: true
 ---
 
 # Machine Console

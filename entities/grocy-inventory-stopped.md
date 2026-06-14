@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network]
 description: "Network details and configuration for Grocy Inventory (Stopped)"
+isPublished: true
 ---
 
 # Grocy Inventory (Stopped)

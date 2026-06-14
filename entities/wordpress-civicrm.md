@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [servers]
 description: "Wordpress CiviCRM docker stack overview"
+isPublished: true
 ---
 
 # Wordpress CiviCRM

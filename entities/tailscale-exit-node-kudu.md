@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network, tailscale]
 description: "Network details and configuration for Tailscale Exit Node (Kudu)"
+isPublished: true
 ---
 
 # Tailscale Exit Node (Kudu)

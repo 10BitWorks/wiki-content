@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network, proxmox]
 description: "Network details and configuration for Link Out-of-Band Management"
+isPublished: true
 ---
 
 # Link Out-of-Band Management

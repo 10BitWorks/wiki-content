@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network]
 description: "Network details and configuration for Secondary DNS Server"
+isPublished: true
 ---
 
 # Secondary DNS Server

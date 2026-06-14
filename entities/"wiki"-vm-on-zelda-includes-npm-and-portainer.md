@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network, proxmox]
 description: "Network details and configuration for "Wiki" VM on Zelda (includes NPM and Portainer)"
+isPublished: true
 ---
 
 # "Wiki" VM on Zelda (includes NPM and Portainer)

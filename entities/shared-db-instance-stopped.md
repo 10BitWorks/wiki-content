@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network]
 description: "Network details and configuration for Shared DB Instance (Stopped)"
+isPublished: true
 ---
 
 # Shared DB Instance (Stopped)

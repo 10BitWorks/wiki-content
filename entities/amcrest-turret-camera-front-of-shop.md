@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network, operations]
 description: "Network details and configuration for Amcrest turret Camera (front of shop)"
+isPublished: true
 ---
 
 # Amcrest turret Camera (front of shop)

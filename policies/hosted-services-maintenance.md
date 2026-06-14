@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: policy
 tags: [proxmox, servers]
 description: "Documentation of host maintenance policies and Elasticsearch watermarks."
+isPublished: true
 ---
 
 # Hosted Services Maintenance

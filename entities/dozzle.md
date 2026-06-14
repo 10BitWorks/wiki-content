@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [servers]
 description: "Dozzle docker stack overview"
+isPublished: true
 ---
 
 # Dozzle

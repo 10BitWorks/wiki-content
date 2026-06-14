@@ -4,6 +4,7 @@ created: 2026-06-14
 updated: 2026-06-14
 type: entity
 tags: [access-control, kanidm, passkeys, servers, sso]
+isPublished: true
 ---
 
 # Kanidm at 10BitWorks

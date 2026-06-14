@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network]
 description: "Network details and configuration for Roku (Hisense Smart TV)"
+isPublished: true
 ---
 
 # Roku (Hisense Smart TV)

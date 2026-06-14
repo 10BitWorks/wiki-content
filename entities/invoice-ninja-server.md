@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network]
 description: "Network details and configuration for Invoice Ninja Server"
+isPublished: true
 ---
 
 # Invoice Ninja Server

@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [servers]
 description: "n8n docker stack overview"
+isPublished: true
 ---
 
 # n8n

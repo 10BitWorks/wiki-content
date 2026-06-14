@@ -5,6 +5,7 @@ updated: 2026-06-14
 type: entity
 tags: [network]
 description: "Network details and configuration for DHCP Sniffer (Stopped)"
+isPublished: true
 ---
 
 # DHCP Sniffer (Stopped)
