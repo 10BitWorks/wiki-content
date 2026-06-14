@@ -3,7 +3,7 @@ title: Link Out-of-Band Management
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [network, proxmox]
+tags: network, proxmox
 description: "Network details and configuration for Link Out-of-Band Management"
 isPublished: true
 ---

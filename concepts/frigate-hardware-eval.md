@@ -3,7 +3,7 @@ title: Frigate & AI Inference Hardware
 created: 2026-06-14
 updated: 2026-06-14
 type: concept
-tags: [operations, proxmox, servers]
+tags: operations, proxmox, servers
 description: "Hardware evaluation and recommendations for scaling Frigate AI inference."
 isPublished: true
 ---

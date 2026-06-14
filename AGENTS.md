@@ -28,7 +28,7 @@ title: Page Title
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 type: entity | concept | policy | manual | meeting | query | summary
-tags: [from taxonomy below]
+tags: from taxonomy below
 sources: [raw/articles/source-name.md]
 # Optional quality signals:
 confidence: high | medium | low

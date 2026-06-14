@@ -3,7 +3,7 @@ title: Hosted Services Maintenance Policy
 created: 2026-06-14
 updated: 2026-06-14
 type: policy
-tags: [proxmox, servers]
+tags: proxmox, servers
 description: "Documentation of host maintenance policies and Elasticsearch watermarks."
 isPublished: true
 ---

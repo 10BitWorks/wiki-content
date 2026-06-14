@@ -3,7 +3,7 @@ title: PTZ Camera (Glados)
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [network, operations]
+tags: network, operations
 description: "Network details and configuration for PTZ Camera (Glados)"
 isPublished: true
 ---

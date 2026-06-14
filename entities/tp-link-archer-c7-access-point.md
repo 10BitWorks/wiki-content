@@ -3,7 +3,7 @@ title: TP-Link Archer C7 Access Point
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [network, operations, proxmox]
+tags: network, operations, proxmox
 description: "Network details and configuration for TP-Link Archer C7 Access Point"
 isPublished: true
 ---

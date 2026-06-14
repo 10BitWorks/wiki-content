@@ -3,7 +3,7 @@ title: n8n
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [servers]
+tags: servers
 description: "n8n docker stack overview"
 isPublished: true
 ---

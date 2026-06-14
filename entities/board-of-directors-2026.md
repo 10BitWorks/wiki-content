@@ -3,7 +3,7 @@ title: Board of Directors 2026
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [board, governance, membership]
+tags: board, governance, membership
 description: "Roster of the 2026 10BitWorks Board of Directors"
 isPublished: true
 ---

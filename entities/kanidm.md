@@ -3,7 +3,7 @@ title: Kanidm
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [access-control, kanidm, passkeys, servers, sso]
+tags: access-control, kanidm, passkeys, servers, sso
 isPublished: true
 ---
 

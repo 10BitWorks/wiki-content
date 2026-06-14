@@ -3,7 +3,7 @@ title: Shared Oracle ARM Server
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [network]
+tags: network
 description: "Network details and configuration for Shared Oracle ARM Server"
 isPublished: true
 ---

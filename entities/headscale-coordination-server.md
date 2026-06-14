@@ -3,7 +3,7 @@ title: Headscale Coordination Server
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [network, tailscale]
+tags: network, tailscale
 description: "Network details and configuration for Headscale Coordination Server"
 isPublished: true
 ---

@@ -3,7 +3,7 @@ title: Dozzle
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [servers]
+tags: servers
 description: "Dozzle docker stack overview"
 isPublished: true
 ---

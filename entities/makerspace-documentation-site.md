@@ -3,7 +3,7 @@ title: Makerspace Documentation Site
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [network]
+tags: network
 description: "Network details and configuration for Makerspace Documentation Site"
 isPublished: true
 ---

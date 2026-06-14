@@ -3,7 +3,7 @@ title: Infrastructure Monitor
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [network]
+tags: network
 description: "Network details and configuration for Infrastructure Monitor"
 isPublished: true
 ---
