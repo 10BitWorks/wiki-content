@@ -1,0 +1,18 @@
+---
+title: Grocy Inventory (Stopped)
+created: 2026-06-14
+updated: 2026-06-14
+type: entity
+tags: [misc, network]
+description: "Network details and configuration for Grocy Inventory (Stopped)"
+---
+
+# Grocy Inventory (Stopped)
+
+- Hostname: grocy
+- mDNS: TODO
+- IP: DHCP
+- MAC: BC:24:11:9E:B2:B7
+- OS: Debian (LXC 102 on Zelda)
+- Model: Proxmox Container 102
+
