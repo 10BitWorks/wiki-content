@@ -3,7 +3,7 @@ title: Unknown Workshop PC (MSI)
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [machines, network]
+tags: [3d-printer, network]
 description: "Network details and configuration for Unknown Workshop PC (MSI)"
 ---
 

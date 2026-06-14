@@ -3,7 +3,7 @@ title: Invoice Ninja Server
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [infrastructure, network]
+tags: [network]
 description: "Network details and configuration for Invoice Ninja Server"
 ---
 

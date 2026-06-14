@@ -3,7 +3,7 @@ title: Amcrest turret Camera (front of shop)
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [operations, network, cameras]
+tags: [network, operations]
 description: "Network details and configuration for Amcrest turret Camera (front of shop)"
 ---
 

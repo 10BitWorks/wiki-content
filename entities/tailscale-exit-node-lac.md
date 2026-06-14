@@ -3,7 +3,7 @@ title: Tailscale Exit Node (LAC)
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [infrastructure, network, tailscale]
+tags: [network, tailscale]
 description: "Network details and configuration for Tailscale Exit Node (LAC)"
 ---
 

@@ -3,7 +3,7 @@ title: Wyze Light Switch 3
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [operations, network]
+tags: [network, operations]
 description: "Network details and configuration for Wyze Light Switch 3"
 ---
 

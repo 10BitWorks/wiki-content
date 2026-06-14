@@ -3,7 +3,7 @@ title: Facility Transition and Botts Lane Move
 created: 2026-06-14
 updated: 2026-06-14
 type: policy
-tags: [board, planning, governance]
+tags: [board, governance, planning]
 description: "Documentation of the 2026 decision to exit the Lachapelle warehouse and move to Botts Lane."
 ---
 

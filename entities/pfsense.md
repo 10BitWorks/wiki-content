@@ -3,7 +3,7 @@ title: pfSense
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [pfsense, network, access-control]
+tags: [access-control, network, pfsense]
 ---
 
 # pfSense Network Architecture

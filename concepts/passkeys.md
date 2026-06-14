@@ -3,7 +3,7 @@ title: Passkeys
 created: 2026-06-14
 updated: 2026-06-14
 type: concept
-tags: [passkeys, sso, access-control]
+tags: [access-control, passkeys, sso]
 ---
 
 # Passkeys (WebAuthn)

@@ -3,7 +3,7 @@ title: Primary DNS & DHCP Server
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [infrastructure, network]
+tags: [network]
 description: "Network details and configuration for Primary DNS & DHCP Server"
 ---
 

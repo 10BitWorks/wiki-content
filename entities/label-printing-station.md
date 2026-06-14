@@ -3,7 +3,7 @@ title: Label Printing Station
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [operations, network]
+tags: [network, operations]
 description: "Network details and configuration for Label Printing Station"
 ---
 

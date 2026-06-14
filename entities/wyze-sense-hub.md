@@ -3,7 +3,7 @@ title: Wyze Sense Hub
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [operations, network]
+tags: [network, operations]
 description: "Network details and configuration for Wyze Sense Hub"
 ---
 

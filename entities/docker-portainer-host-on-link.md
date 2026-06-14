@@ -3,7 +3,7 @@ title: Docker (Portainer) Host on Link
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [infrastructure, network, proxmox]
+tags: [network, proxmox]
 description: "Network details and configuration for Docker (Portainer) Host on Link"
 ---
 

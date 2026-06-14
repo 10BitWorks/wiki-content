@@ -3,7 +3,7 @@ title: Kanidm
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [kanidm, sso, access-control, passkeys, servers]
+tags: [access-control, kanidm, passkeys, servers, sso]
 ---
 
 # Kanidm at 10BitWorks

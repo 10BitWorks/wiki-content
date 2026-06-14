@@ -3,7 +3,7 @@ title: Bookstack
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [docker, servers]
+tags: [servers]
 description: "Bookstack docker stack overview"
 ---
 

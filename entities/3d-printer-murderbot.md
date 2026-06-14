@@ -3,7 +3,7 @@ title: 3D Printer (murderbot)
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [machines, network]
+tags: [3d-printer, network]
 description: "Network details and configuration for 3D Printer (murderbot)"
 ---
 

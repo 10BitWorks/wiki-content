@@ -3,7 +3,7 @@ title: Stock Wyze Camera 2
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [operations, network, cameras]
+tags: [network, operations]
 description: "Network details and configuration for Stock Wyze Camera 2"
 ---
 

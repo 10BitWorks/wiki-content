@@ -3,7 +3,7 @@ title: Primary Firewall (pfSense)
 created: 2026-06-14
 updated: 2026-06-14
 type: entity
-tags: [infrastructure, network, pfsense]
+tags: [network, pfsense]
 description: "Network details and configuration for Primary Firewall (pfSense)"
 ---
 
