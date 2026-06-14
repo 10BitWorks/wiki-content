@@ -16,7 +16,8 @@ dateCreated: 2026-06-14T09:51:38.498Z
 ## Conventions
 - File names: lowercase, hyphens, no spaces (e.g., `laser-cutter-sop.md`)
 - Every wiki page starts with YAML frontmatter (see below)
-- Use `[[wikilinks]]` to link between pages (minimum 2 outbound links per page)
+- Use standard markdown links `[Title](/folder/page-slug)` instead of `[[wikilinks]]`. Wiki.js handles standard paths better.
+- Feel free to use advanced Markdown (PlantUML, KaTeX, MultiMarkdown tables, Task lists) — the Wiki.js rendering pipeline has full support enabled.
 - When updating a page, always bump the `updated` date
 - Every new page must be added to `index.md` under the correct section
 - Every action must be appended to `log.md`
