@@ -27,7 +27,7 @@ contested: true
 ```
 
 ## Tag Taxonomy
-- Infrastructure: `proxmox`, `kanidm`, `tailscale`, `coolify`, `pfsense`, `network`, `servers`
+- Infrastructure: `proxmox`, `kanidm`, `tailscale`, `coolify`, `pfsense`, `network`, `servers`, `cameras`, `docker`
 - Operations: `membership`, `onboarding`, `finance`, `governance`, `board`
 - Machines: `laser-cutter`, `3d-printer`, `woodshop`, `metalshop`, `electronics`
 - Identity: `sso`, `passkeys`, `posix`, `access-control`
