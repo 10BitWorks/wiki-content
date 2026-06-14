@@ -22,3 +22,12 @@ description: "Network details and configuration for Amcrest turret Camera (front
 --
 r doorbell_entry.txt
 
+
+
+## Amcrest IPC-T54IR-AS-S3 Features
+- **AI SSA (AI Scene Self-adaptation):** Automatically adjusts image parameters.
+- **Support:** WDR, HLC, BLC, and 3D Noise Reduction.
+- **Encoding:** Up to 2688x1520 (4MP) @ 30 FPS. Smart H.264+/H.265+.
+- **AI Detection:** Smart Motion Detection (SMD) for Human and Motor Vehicle targets.
+- **Protocols:** RTSP, ONVIF, CGI API control.
+- **Audio:** Built-in Mic/Speaker (AAC support).

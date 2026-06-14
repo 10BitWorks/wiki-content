@@ -20,3 +20,10 @@ description: "Network details and configuration for Doorbell Camera (Wyze v1)"
 - Port: 8080 (admin) - Thingino Admin/Debug UI
 High-power monitoring and workshop tools.
 
+
+
+## Firmware Details
+- **OS**: Thingino Linux (Build 2026.x)
+- **Primary Ports**: 80 (Web), 554 (RTSP), 8080 (Admin)
+- **Optimization**: H.264 @ 1000kbps for outdoor, H.265 for indoor.
+- **Transport Requirement**: UDP mandatory for stability.

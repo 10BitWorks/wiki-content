@@ -76,6 +76,7 @@
 - [[pfsense]] - Core network routing and soft captive portal.
 
 ## Concepts
+- [[frigate-hardware-eval]] - Hardware evaluation and recommendations for scaling Frigate AI inference.
 - [[passkeys]] - Default authentication mechanism for infrastructure.
 
 ## Policies & Governance

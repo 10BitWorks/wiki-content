@@ -20,3 +20,10 @@ description: "Network details and configuration for Outside Camera (Wyze)"
 - Port: 8080 (admin) - Thingino Admin/Debug UI
 - Note: Configured as `outside` in Frigate NVR config.
 
+
+
+## Firmware Details
+- **OS**: Thingino Linux (Build 2026.x)
+- **Primary Ports**: 80 (Web), 554 (RTSP), 8080 (Admin)
+- **Optimization**: H.264 @ 1000kbps for outdoor, H.265 for indoor.
+- **Transport Requirement**: UDP mandatory for stability.
