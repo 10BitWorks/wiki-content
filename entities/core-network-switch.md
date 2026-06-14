@@ -1,19 +1,19 @@
 ---
 title: Core Network Switch
-created: 2026-06-14
-updated: 2026-06-14
-type: entity
+description: Network details and configuration for Core Network Switch
+published: true
+date: 2026-06-14T21:42:19.136Z
 tags: network
-description: "Network details and configuration for Core Network Switch"
-isPublished: true
+editor: markdown
+dateCreated: 2026-06-14T11:10:06.605Z
 ---
 
 # Core Network Switch
 
 - Hostname: coruscant
 - mDNS: TODO
-- IP: 10.7.1.3 (DHCP)
+- IP: 10.7.1.1 (Static)
 - MAC: B4:A8:B9:F2:67:47
-- OS: Cisco IOS (likely)
-- Model: Cisco Catalyst Switch
+- OS: Cisco IOS 
+- Model: Cisco Catalyst Switch c3850-12x48u-s
 
