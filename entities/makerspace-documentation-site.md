@@ -8,8 +8,6 @@ description: "Network details and configuration for Makerspace Documentation Sit
 isPublished: true
 ---
 
-# Makerspace Documentation Site
-
 - Hostname: bookstack
 - mDNS: bookstack.local
 - IP: 10.7.1.13 (DHCP Lease)

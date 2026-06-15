@@ -8,8 +8,6 @@ description: "Network details and configuration for Upstream ISP Gateway"
 isPublished: true
 ---
 
-# Upstream ISP Gateway
-
 - Hostname: ATT-Fiber
 - mDNS: Unknown
 - IP: 192.168.10.254 (Upstream / Hopper 2)

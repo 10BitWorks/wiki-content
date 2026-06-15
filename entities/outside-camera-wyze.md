@@ -8,8 +8,6 @@ description: "Network details and configuration for Outside Camera (Wyze)"
 isPublished: true
 ---
 
-# Outside Camera (Wyze)
-
 - Hostname: cam-wyze3-outside (Lease: cam-wyze3-outside)
 - mDNS: cam-wyze3-outside.local (Legacy: cam-wyze3-front)
 - IP: 10.7.1.100 (DHCP)
@@ -19,7 +17,8 @@ isPublished: true
 - Port: 80 (http) - Thingino Web Interface
 - Port: 554 (rtsp) - RTSP Camera Stream
 - Port: 8080 (admin) - Thingino Admin/Debug UI
-- Note: Configured as `outside` in Frigate NVR config.
+> Configured as `outside` in Frigate NVR config.
+> {.is-info}
 
 
 

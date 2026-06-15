@@ -8,8 +8,6 @@ description: "Network details and configuration for PTZ Camera (Glados)"
 isPublished: true
 ---
 
-# PTZ Camera (Glados)
-
 - Hostname: Glados
 - mDNS: Unsupported (Proprietary firmware)
 - IP: 10.7.1.170 (DHCP)

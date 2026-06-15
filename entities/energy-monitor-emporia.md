@@ -8,8 +8,6 @@ description: "Network details and configuration for Energy Monitor (Emporia)"
 isPublished: true
 ---
 
-# Energy Monitor (Emporia)
-
 - Hostname: Emporia
 - mDNS: Unknown
 - IP: 10.7.1.127 (DHCP)

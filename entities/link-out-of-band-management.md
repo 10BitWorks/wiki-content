@@ -8,8 +8,6 @@ description: "Network details and configuration for Link Out-of-Band Management"
 isPublished: true
 ---
 
-# Link Out-of-Band Management
-
 - Hostname: idrac-electronics
 - mDNS: Unsupported
 - IP: 10.7.1.154 (DHCP)

@@ -8,12 +8,11 @@ description: "Network details and configuration for Connor's Laptop"
 isPublished: true
 ---
 
-# Connor's Laptop
-
 - Hostname: lemur
 - mDNS: lemur.local
 - IP: 10.7.1.194 (DHCP)
-- Note: When remote, traffic is SNAT'd via tail-lac (.104).
+> When remote, traffic is SNAT'd via tail-lac (.104).
+> {.is-info}
 - MAC: 90:0F:0C:47:2B:15
 - OS: Linux (Guix System / Debian)
 - Model: System76 Laptop (Connor's Laptop - Current Session Host)

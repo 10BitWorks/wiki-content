@@ -8,8 +8,6 @@ description: "Network details and configuration for New Door Access Controller"
 isPublished: true
 ---
 
-# New Door Access Controller
-
 - Hostname: cobalt
 - mDNS: cobalt.local
 - IP: 10.7.1.59 (Static - Linux Bonding active-backup)
@@ -19,5 +17,6 @@ isPublished: true
 - Model: Raspberry Pi 3B+
 - Port: 22 (ssh) - Pi Management
 - Netdata: Streaming to 10.7.1.7 (Parent)
-- Note: SSH user is `pi` (see `./Front Door/GEMINI.md`)
+> SSH user is `pi` (see `./Front Door/GEMINI.md`)
+> {.is-info}
 

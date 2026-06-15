@@ -8,8 +8,6 @@ description: "Hardware evaluation and recommendations for scaling Frigate AI inf
 isPublished: true
 ---
 
-# Frigate & AI Inference Hardware
-
 Based on the 10BitWorks infrastructure analysis, scaling to high-density camera deployments with AI inference requires specific hardware architectures.
 
 ## The Dell T330 Constraint

@@ -8,8 +8,6 @@ description: "Network details and configuration for Invoice Ninja Server"
 isPublished: true
 ---
 
-# Invoice Ninja Server
-
 - Hostname: invoice
 - mDNS: TODO
 - IP: 10.7.1.86 (DHCP)

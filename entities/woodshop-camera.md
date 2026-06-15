@@ -8,8 +8,6 @@ description: "Network details and configuration for Woodshop Camera"
 isPublished: true
 ---
 
-# Woodshop Camera
-
 - Hostname: cam-wood
 - mDNS: 10bit-wyze3-wood.local (Legacy: cam-wyze3-woodworking)
 - IP: 10.7.1.143 (DHCP)

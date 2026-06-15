@@ -8,8 +8,6 @@ description: "Network details and configuration for Frigate NVR Server"
 isPublished: true
 ---
 
-# Frigate NVR Server
-
 - Hostname: cameras
 - mDNS: cameras.local
 - IP: 10.7.1.31 (Static)

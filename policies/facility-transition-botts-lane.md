@@ -8,8 +8,6 @@ description: "Documentation of the 2026 decision to exit the Lachapelle warehous
 isPublished: true
 ---
 
-# Facility Transition and Botts Lane Move
-
 ## Executive Summary
 In mid-2026, the Board of Directors (Connor, Greg, Eric, Ken, and Hunter) formally proposed to exit the legacy warehouse space at 130 W. Lachapelle. The primary goal of the move was to solve major environmental and infrastructure roadblocks that were causing membership churn, and relocate to a more sustainable space at 8610 Botts Ln.
 

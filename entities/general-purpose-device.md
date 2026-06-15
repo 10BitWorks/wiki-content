@@ -8,8 +8,6 @@ description: "Network details and configuration for General Purpose Device"
 isPublished: true
 ---
 
-# General Purpose Device
-
 - Hostname: eggo
 - mDNS: TODO
 - IP: 10.7.1.91 (DHCP)

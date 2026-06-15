@@ -8,8 +8,6 @@ description: "Network details and configuration for Unknown Workshop PC (MSI)"
 isPublished: true
 ---
 
-# Unknown Workshop PC (MSI)
-
 - Hostname: MSI
 - mDNS: TODO
 - IP: DHCP (Used .104 previously, now taken by tail-lac)

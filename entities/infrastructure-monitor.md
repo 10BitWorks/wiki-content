@@ -8,8 +8,6 @@ description: "Network details and configuration for Infrastructure Monitor"
 isPublished: true
 ---
 
-# Infrastructure Monitor
-
 - Hostname: uptime
 - mDNS: uptime.local
 - IP: 10.7.1.89 (DHCP)

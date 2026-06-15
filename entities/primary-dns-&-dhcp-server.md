@@ -8,8 +8,6 @@ description: "Network details and configuration for Primary DNS & DHCP Server"
 isPublished: true
 ---
 
-# Primary DNS & DHCP Server
-
 - Hostname: dhcp1
 - mDNS: pihole2.local
 - IP: 10.7.1.9 (Static)

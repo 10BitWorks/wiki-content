@@ -8,13 +8,12 @@ description: "Network details and configuration for Tailscale Exit Node (LAC)"
 isPublished: true
 ---
 
-# Tailscale Exit Node (LAC)
-
 - Hostname: tailscale-lac (Lease Hostname: tail-lac)
 - mDNS: TODO
 - IP: 10.7.1.104 (DHCP)
 - MAC: BC:24:11:D4:B8:C0
 - OS: Debian 12 (VM 203 on Zelda)
 - Model: Proxmox VM 203
-- Note: This is the primary SNAT source for remote users (Headscale).
+> This is the primary SNAT source for remote users (Headscale).
+> {.is-info}
 

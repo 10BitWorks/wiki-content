@@ -8,8 +8,6 @@ description: "Network details and configuration for Door Admin (Django database)
 isPublished: true
 ---
 
-# Door Admin (Django database)
-
 - Hostname: door1
 - mDNS: door1.local
 - IP: 10.7.1.244 (Static)

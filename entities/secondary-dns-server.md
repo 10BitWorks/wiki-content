@@ -8,8 +8,6 @@ description: "Network details and configuration for Secondary DNS Server"
 isPublished: true
 ---
 
-# Secondary DNS Server
-
 - Hostname: pihole1
 - mDNS: pihole1.local
 - IP: 10.7.1.181 (WiFi - DHCP)

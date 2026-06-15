@@ -8,8 +8,6 @@ description: "Network details and configuration for Epson Network Printer"
 isPublished: true
 ---
 
-# Epson Network Printer
-
 - Hostname: EPSONC7D47D
 - mDNS: TODO
 - IP: 10.7.1.185 (DHCP)

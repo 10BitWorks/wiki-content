@@ -8,8 +8,6 @@ description: "Network details and configuration for IoT Lighting Interface"
 isPublished: true
 ---
 
-# IoT Lighting Interface
-
 - Hostname: Unknown
 - IP: 10.7.1.128 (DHCP)
 - MAC: 1C:D6:BD:F5:29:89

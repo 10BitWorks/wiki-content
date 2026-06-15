@@ -8,8 +8,6 @@ description: "Network details and configuration for Kiln Monitor"
 isPublished: true
 ---
 
-# Kiln Monitor
-
 - Hostname: kilnpi
 - mDNS: kilnpi.local (DHCP Legacy: kiln)
 - IP: 10.7.1.81 (Static)
@@ -20,5 +18,6 @@ isPublished: true
 - Port: 80 (http) - Apache Web Server (Legacy UI)
 - Port: 3000 (grafana) - Grafana Visualization
 - Netdata: Streaming to 10.7.1.7 (Parent)
-- Note: SSH user is `espehr` (see `./kiln pi/GEMINI.md`)
+> SSH user is `espehr` (see `./kiln pi/GEMINI.md`)
+> {.is-info}
 

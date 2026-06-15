@@ -8,8 +8,6 @@ description: "Network details and configuration for Link Server (Proxmox)"
 isPublished: true
 ---
 
-# Link Server (Proxmox)
-
 - Hostname: link
 - mDNS: link.local
 - IP: 10.7.1.7 (Static)

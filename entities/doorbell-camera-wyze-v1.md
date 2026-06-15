@@ -8,8 +8,6 @@ description: "Network details and configuration for Doorbell Camera (Wyze v1)"
 isPublished: true
 ---
 
-# Doorbell Camera (Wyze v1)
-
 - Hostname: doorbell-wyze1
 - mDNS: doorbell-wyze1.local
 - IP: 10.7.1.121 (DHCP)

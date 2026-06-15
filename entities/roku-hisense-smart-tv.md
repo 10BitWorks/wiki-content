@@ -8,8 +8,6 @@ description: "Network details and configuration for Roku (Hisense Smart TV)"
 isPublished: true
 ---
 
-# Roku (Hisense Smart TV)
-
 - Hostname: Bedroom
 - mDNS: Unsupported
 - IP: 10.7.1.147 (DHCP)

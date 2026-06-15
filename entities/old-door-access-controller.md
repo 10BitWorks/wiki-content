@@ -8,8 +8,6 @@ description: "Network details and configuration for Old Door Access Controller"
 isPublished: true
 ---
 
-# Old Door Access Controller
-
 - Hostname: frontdoor
 - mDNS: frontdoor.local
 - IP: 10.7.1.6 (Static Reservation)
@@ -19,5 +17,6 @@ isPublished: true
 - Port: 22 (ssh) - Pi Management
 - Port: 3389 (ms-wbt-server) - Remote Desktop (XRDP)
 - Netdata: Streaming to 10.7.1.7 (Parent)
-- Note: SSH user is `chale` (see `./Front Door/GEMINI.md`)
+> SSH user is `chale` (see `./Front Door/GEMINI.md`)
+> {.is-info}
 

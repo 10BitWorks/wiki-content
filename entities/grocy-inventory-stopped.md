@@ -8,8 +8,6 @@ description: "Network details and configuration for Grocy Inventory (Stopped)"
 isPublished: true
 ---
 
-# Grocy Inventory (Stopped)
-
 - Hostname: grocy
 - mDNS: TODO
 - IP: DHCP

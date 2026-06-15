@@ -8,8 +8,6 @@ description: "Network details and configuration for Tailscale Exit Node (Kudu)"
 isPublished: true
 ---
 
-# Tailscale Exit Node (Kudu)
-
 - Hostname: tailscale-kudu (Lease Hostname: tail-kudu)
 - mDNS: TODO
 - IP: 10.7.1.172 (DHCP)

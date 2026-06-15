@@ -8,8 +8,6 @@ description: "Network details and configuration for Wyze Light Switch 4"
 isPublished: true
 ---
 
-# Wyze Light Switch 4
-
 - Hostname: Unknown (MAC-only)
 - IP: 10.7.1.166 (DHCP)
 - MAC: D0:3F:27:11:7D:7E

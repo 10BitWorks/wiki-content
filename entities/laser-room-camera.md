@@ -8,8 +8,6 @@ description: "Network details and configuration for Laser Room Camera"
 isPublished: true
 ---
 
-# Laser Room Camera
-
 - Hostname: cam-laser
 - mDNS: cam-wyze3-laser.local
 - IP: 10.7.1.131 (DHCP)

@@ -8,8 +8,6 @@ description: "Network details and configuration for Wyze Sense Hub"
 isPublished: true
 ---
 
-# Wyze Sense Hub
-
 - Hostname: wyzehub
 - mDNS: Unsupported (Stock Hub)
 - IP: 10.7.1.130 (DHCP)

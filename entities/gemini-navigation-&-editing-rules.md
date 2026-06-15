@@ -8,8 +8,6 @@ description: "Network details and configuration for Gemini Navigation & Editing 
 isPublished: true
 ---
 
-# Gemini Navigation & Editing Rules
-
 - **Hierarchy**: Use `# Project Category` (H1) and `## Brief Description` (H2).
 - **Separate Bullets**: Every Hostname, mDNS address, IP address, Port, MAC address, OS, and Machine Model must be its own bullet point.
 - **Hostname First**: The first bullet for every host MUST be the hostname.

@@ -8,8 +8,6 @@ description: "Network details and configuration for Docker (Portainer) Host on L
 isPublished: true
 ---
 
-# Docker (Portainer) Host on Link
-
 - Hostname: docker
 - mDNS: docker.local
 - IP: 10.7.1.25 (Static)

@@ -8,8 +8,6 @@ description: "Network details and configuration for 3D Printer (murderbot)"
 isPublished: true
 ---
 
-# 3D Printer (murderbot)
-
 - Hostname: murderbot
 - mDNS: murderbot.local
 - IP: 10.7.1.92 (DHCP)

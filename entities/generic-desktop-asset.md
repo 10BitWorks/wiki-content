@@ -8,8 +8,6 @@ description: "Network details and configuration for Generic Desktop Asset"
 isPublished: true
 ---
 
-# Generic Desktop Asset
-
 - Hostname: DESKTOP-096JVUK
 - mDNS: TODO
 - IP: 10.7.1.101 (DHCP)

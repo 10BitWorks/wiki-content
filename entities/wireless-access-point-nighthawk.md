@@ -8,8 +8,6 @@ description: "Network details and configuration for Wireless Access Point (Night
 isPublished: true
 ---
 
-# Wireless Access Point (Nighthawk)
-
 - Hostname: rs70
 - mDNS: Supported (rs70.local)
 - IP: 10.7.1.252 (DHCP)
@@ -17,5 +15,6 @@ isPublished: true
 - OS: Netgear Genie / Proprietary
 - Model: Netgear Nighthawk R7000
 - Port: 80 (http) - Management UI
-- Note: Hosts all WiFi devices including the current session's Lemur laptop.
+> Hosts all WiFi devices including the current session's Lemur laptop.
+> {.is-info}
 

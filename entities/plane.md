@@ -8,8 +8,6 @@ description: "Plane docker stack overview"
 isPublished: true
 ---
 
-# Plane
-
 This is a hosted Docker service running on the internal Portainer host (`10.7.1.25`). 
 Please check Portainer for specific `docker-compose.yaml` configuration and volume mappings.
 

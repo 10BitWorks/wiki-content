@@ -8,8 +8,6 @@ description: "Network details and configuration for Connor's Phone"
 isPublished: true
 ---
 
-# Connor's Phone
-
 - Hostname: Pixel-10-Pro-Fold
 - mDNS: Unknown
 - IP: 10.7.1.149 (DHCP)

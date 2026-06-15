@@ -8,8 +8,6 @@ description: Specifications and manual for the Grizzly PRO G0954 60-gallon air c
 isPublished: true
 ---
 
-# Grizzly PRO G0954 Air Compressor
-
 ![Grizzly PRO G0954 Air Compressor](/assets/images/grizzly-compressor-full.jpeg)
 
 ## General Information

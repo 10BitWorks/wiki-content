@@ -15,9 +15,11 @@ dateCreated: 2026-06-14T09:51:38.498Z
 
 ## Conventions
 - File names: lowercase, hyphens, alphanumeric only, absolutely NO quotes or special characters (e.g., `laser-cutter-sop.md`). Wiki.js routing breaks on unescaped characters.
+- **No Redundant H1s:** Wiki.js automatically renders the page title as an H1 heading. If the first `# Heading` in the content body matches the title, omit it to avoid duplication.
 - Every wiki page starts with YAML frontmatter (see below)
 - Use standard markdown links `[Title](/folder/page-slug)` instead of `[[wikilinks]]` (minimum 2 outbound links per page). Wiki.js handles standard paths better.
 - Feel free to use advanced Markdown (PlantUML, KaTeX, MultiMarkdown tables, Task lists) — the Wiki.js rendering pipeline has full support enabled.
+- **Callouts & Styling:** Natively support Wiki.js-style colored blocks using `> Text` followed immediately by `> {.is-info}` or `> {.is-warning}`. Use `{.links-list}` for links lists.
 - When updating a page, always bump the `updated` date
 - Every new page must be added to `index.md` under the correct section
 - **Git Commits as Logs:** Explain your reasoning in the extended commit body. Do not maintain a separate log.md.

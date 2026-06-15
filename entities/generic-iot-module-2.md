@@ -8,8 +8,6 @@ description: "Network details and configuration for Generic IoT Module 2"
 isPublished: true
 ---
 
-# Generic IoT Module 2
-
 - Hostname: Unknown
 - IP: 10.7.1.192 (DHCP)
 - MAC: 08:A6:F7:0A:73:78

@@ -8,8 +8,6 @@ description: "Network details and configuration for Machine Console"
 isPublished: true
 ---
 
-# Machine Console
-
 - Hostname: laser
 - mDNS: Unknown
 - IP: 10.7.1.102 (DHCP)

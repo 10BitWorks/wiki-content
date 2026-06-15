@@ -8,8 +8,6 @@ description: "Network details and configuration for Primary Firewall (pfSense)"
 isPublished: true
 ---
 
-# Primary Firewall (pfSense)
-
 - Hostname: extrawall
 - mDNS: Supported (extrawall.local)
 - IP: 10.7.1.1 (Static)

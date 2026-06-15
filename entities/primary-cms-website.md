@@ -8,8 +8,6 @@ description: "Network details and configuration for Primary CMS Website"
 isPublished: true
 ---
 
-# Primary CMS Website
-
 - Hostname: website
 - mDNS: website.local
 - IP: 10.7.1.10 (Static)

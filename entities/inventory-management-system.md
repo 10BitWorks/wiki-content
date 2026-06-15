@@ -8,8 +8,6 @@ description: "Network details and configuration for Inventory Management System"
 isPublished: true
 ---
 
-# Inventory Management System
-
 - Hostname: inventree
 - mDNS: TODO
 - IP: TODO

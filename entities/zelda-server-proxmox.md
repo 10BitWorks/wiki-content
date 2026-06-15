@@ -8,8 +8,6 @@ description: "Network details and configuration for Zelda Server (Proxmox)"
 isPublished: true
 ---
 
-# Zelda Server (Proxmox)
-
 - Hostname: zelda
 - mDNS: zelda.local
 - IP: 10.7.1.240 (Static)

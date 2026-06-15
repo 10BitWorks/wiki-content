@@ -8,8 +8,6 @@ description: "Network details and configuration for Label Printing Station"
 isPublished: true
 ---
 
-# Label Printing Station
-
 - Hostname: labelpi
 - mDNS: labels.local
 - IP: 10.7.1.87 (DHCP)

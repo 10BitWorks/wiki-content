@@ -8,8 +8,6 @@ description: "Network details and configuration for Kiln Area Camera"
 isPublished: true
 ---
 
-# Kiln Area Camera
-
 - Hostname: cam-kilns
 - mDNS: 10bit-wyze3-kilns.local (Legacy: cam-wyze3-kilns)
 - IP: 10.7.1.137 (DHCP)

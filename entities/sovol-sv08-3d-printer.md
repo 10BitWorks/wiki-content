@@ -8,8 +8,6 @@ description: "Network details and configuration for Sovol SV08 (3D Printer)"
 isPublished: true
 ---
 
-# Sovol SV08 (3D Printer)
-
 - Hostname: SPI-XI
 - mDNS: SPI-XI.local
 - IP: 10.7.1.94 (DHCP)
@@ -18,5 +16,6 @@ isPublished: true
 - Model: Sovol SV08
 - Port: 80 (http) - Mainsail Web UI
 - Port: 7125 (api) - Moonraker API
-- Note: Uses "SPI-XI" distribution. Klipper-based.
+> Uses "SPI-XI" distribution. Klipper-based.
+> {.is-info}
 

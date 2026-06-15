@@ -8,8 +8,6 @@ description: "Network details and configuration for DHCP Sniffer (Stopped)"
 isPublished: true
 ---
 
-# DHCP Sniffer (Stopped)
-
 - Hostname: dhcp-sniffer
 - mDNS: TODO
 - IP: DHCP

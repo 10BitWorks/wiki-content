@@ -8,8 +8,6 @@ description: "Network details and configuration for Unknown Wi-Fi Asset"
 isPublished: true
 ---
 
-# Unknown Wi-Fi Asset
-
 - Hostname: aa2
 - mDNS: TODO
 - IP: 10.7.1.62 (DHCP)

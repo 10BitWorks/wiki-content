@@ -8,8 +8,6 @@ description: "Network details and configuration for Legacy Support Desk (Stopped
 isPublished: true
 ---
 
-# Legacy Support Desk (Stopped)
-
 - Hostname: support
 - mDNS: TODO
 - IP: 10.7.1.22

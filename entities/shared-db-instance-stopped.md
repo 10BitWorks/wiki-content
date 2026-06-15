@@ -8,8 +8,6 @@ description: "Network details and configuration for Shared DB Instance (Stopped)
 isPublished: true
 ---
 
-# Shared DB Instance (Stopped)
-
 - Hostname: db-postgresql
 - mDNS: TODO
 - IP: DHCP

@@ -8,8 +8,6 @@ description: "Network details and configuration for Digital Signage Player"
 isPublished: true
 ---
 
-# Digital Signage Player
-
 - Hostname: zotac
 - mDNS: zotac.local
 - IP: 10.7.1.142 (DHCP)

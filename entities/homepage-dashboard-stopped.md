@@ -8,8 +8,6 @@ description: "Network details and configuration for Homepage Dashboard (Stopped)
 isPublished: true
 ---
 
-# Homepage Dashboard (Stopped)
-
 - Hostname: homepage
 - mDNS: TODO
 - IP: DHCP

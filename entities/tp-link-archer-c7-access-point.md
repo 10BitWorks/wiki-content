@@ -8,8 +8,6 @@ description: "Network details and configuration for TP-Link Archer C7 Access Poi
 isPublished: true
 ---
 
-# TP-Link Archer C7 Access Point
-
 - Hostname: Archer_C7
 - mDNS: Unknown
 - IP: 10.7.1.152 (DHCP)

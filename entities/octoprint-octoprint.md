@@ -8,8 +8,6 @@ description: "Network details and configuration for OctoPrint (octoprint)"
 isPublished: true
 ---
 
-# OctoPrint (octoprint)
-
 - Hostname: octoprint
 - mDNS: octoprint.local
 - IP: 10.7.1.99 (DHCP)

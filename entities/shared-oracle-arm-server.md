@@ -8,8 +8,6 @@ description: "Network details and configuration for Shared Oracle ARM Server"
 isPublished: true
 ---
 
-# Shared Oracle ARM Server
-
 - Hostname: 10bitworks (Tailscale: cloud-oracle)
 - mDNS: Unknown
 - IP: 100.64.0.15 (Tailscale)

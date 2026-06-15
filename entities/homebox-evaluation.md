@@ -8,8 +8,6 @@ description: "Network details and configuration for Homebox Evaluation"
 isPublished: true
 ---
 
-# Homebox Evaluation
-
 - Hostname: cake
 - mDNS: cake.local
 - IP: 10.7.1.88 (DHCP)
