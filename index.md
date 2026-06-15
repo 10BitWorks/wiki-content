@@ -25,22 +25,22 @@ isPublished: true
 
 ## Hosted Services
 
-- [Kanidm](/services/hosted/kanidm) — Directory service and identity provider
-- [Wiki VM on Zelda](/services/hosted/wiki-vm-on-zelda) — Local Wiki.js hypervisor host
-- [Docker Portainer Host on Link](/services/hosted/docker-portainer-host-on-link) — Host management via Portainer
-- [AppFlowy](/services/hosted/appflowy) — Private project space
-- [Authentik](/services/hosted/authentik) — Single sign-on overlay provider
-- [Bookstack](/services/hosted/bookstack) — Documentation instance
-- [Dozzle](/services/hosted/dozzle) — Log viewing daemon
-- [Loomio](/services/hosted/loomio) — Consensus and decision-making platform
-- [n8n](/services/hosted/n8n) — Automation engine
-- [Plane](/services/hosted/plane) — Planning board
-- [ResourceSpace](/services/hosted/resourcespace) — Digital asset management
-- [Vaultwarden](/services/hosted/vaultwarden) — Password manager
-- [Vikunja](/services/hosted/vikunja) — Task management
-- [Wordpress CiviCRM](/services/hosted/wordpress-civicrm) — Member databases
-- [Xibo](/services/hosted/xibo) — Digital signage management
-- [Zammad](/services/hosted/zammad) — Support ticketer
+- [Kanidm](/app-services/self-hosted/kanidm) — Directory service and identity provider
+- [Wiki VM on Zelda](/app-services/self-hosted/wiki-vm-on-zelda) — Local Wiki.js hypervisor host
+- [Docker Portainer Host on Link](/app-services/self-hosted/docker-portainer-host-on-link) — Host management via Portainer
+- [AppFlowy](/app-services/self-hosted/appflowy) — Private project space
+- [Authentik](/app-services/self-hosted/authentik) — Single sign-on overlay provider
+- [Bookstack](/app-services/self-hosted/bookstack) — Documentation instance
+- [Dozzle](/app-services/self-hosted/dozzle) — Log viewing daemon
+- [Loomio](/app-services/self-hosted/loomio) — Consensus and decision-making platform
+- [n8n](/app-services/self-hosted/n8n) — Automation engine
+- [Plane](/app-services/self-hosted/plane) — Planning board
+- [ResourceSpace](/app-services/self-hosted/resourcespace) — Digital asset management
+- [Vaultwarden](/app-services/self-hosted/vaultwarden) — Password manager
+- [Vikunja](/app-services/self-hosted/vikunja) — Task management
+- [Wordpress CiviCRM](/app-services/self-hosted/wordpress-civicrm) — Member databases
+- [Xibo](/app-services/self-hosted/xibo) — Digital signage management
+- [Zammad](/app-services/self-hosted/zammad) — Support ticketer
 
 ## Operations
 
