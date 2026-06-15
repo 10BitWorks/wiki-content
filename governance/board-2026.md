@@ -11,7 +11,7 @@ isPublished: true
 # Board of Directors 2026
 
 ## Roster
-- Connor Doherty
+- Connor Doherty (President)
 - Greg Thibodeaux
 - Eric Spehr
 - Ken Runner

@@ -11,7 +11,7 @@ isPublished: true
 # Board of Directors 2024
 
 ## Roster
-- Bernard Conley
+- Bernard Conley (President)
 - Connor Doherty
 - Greg Thibodeaux
 - Eric Spehr
