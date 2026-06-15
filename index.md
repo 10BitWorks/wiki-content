@@ -15,7 +15,7 @@ dateCreated: 2026-06-14T09:51:41.158Z
 
 ## Entities
 - [Roster of the 2026 10BitWorks Board of Directors](/entities/board-of-directors-2026)
-- ["Wiki" VM on Zelda (includes NPM and Portainer)](/entities/"wiki"-vm-on-zelda-includes-npm-and-portainer)
+- ["Wiki" VM on Zelda (includes NPM and Portainer)](/entities/wiki-vm-on-zelda)
 - [3D Printer (murderbot)](/entities/3d-printer-murderbot)
 - [Amcrest turret Camera (front of shop)](/entities/amcrest-turret-camera-front-of-shop)
 - [Cardmaker Pi](/entities/cardmaker-pi)
