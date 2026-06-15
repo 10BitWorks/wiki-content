@@ -18,3 +18,4 @@ Moving away from legacy passwords and basic MFA, the infrastructure relies on We
 Because WebAuthn credentials (Passkeys) cannot be migrated from the legacy Authentik stack, members are subject to a 7-day "Bridge Period".
 During this time, members log in via a Slack or Email backup method to register their new Kanidm Passkey.
 
+

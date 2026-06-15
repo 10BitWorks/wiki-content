@@ -17,3 +17,4 @@ This section contains documentation for the main compute nodes at 10BitWorks.
 - [Zelda Server (Proxmox)](/infrastructure/servers/zelda-server-proxmox) — Main hypervisor (Dell Wyse 5070)
 - [Link Server (Proxmox)](/infrastructure/servers/link-server-proxmox) — Secondary hypervisor
 
+
