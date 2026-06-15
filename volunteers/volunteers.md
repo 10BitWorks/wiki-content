@@ -14,4 +14,4 @@ Inclusion here generally means the individual has served on the Board of Directo
 
 ## Notable Contributors
 
-*Profiles will be added here as they are documented.*
+- [Connor](/volunteers/connor) — Board of Directors / Primary Systems Administrator
