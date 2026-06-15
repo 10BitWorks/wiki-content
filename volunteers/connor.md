@@ -11,7 +11,7 @@ tags: volunteer, board
 Connor is the primary systems administrator and creator of the Hermes AI agent for 10BitWorks. 
 
 ## Roles & Contributions
-*   **Board of Directors**: Member of the 10BitWorks Board of Directors.
+- **Board of Directors**: Board President.
 *   **IT Infrastructure Lead**: Manages the core networking and compute infrastructure.
 *   **Hermes Agent Creator**: Developed and deployed the Hermes AI, bridging Slack, Coolify, and Wiki.js into an autonomous GitOps pipeline.
 
