@@ -3,7 +3,7 @@ title: Connor
 description: "Notable Contributor / Primary Systems Administrator"
 isPublished: true
 type: reference
-tags: volunteer, board
+tags: contributor, board
 ---
 
 # Connor

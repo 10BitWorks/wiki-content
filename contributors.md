@@ -1,9 +1,9 @@
 ---
-title: Volunteers
+title: Contributors
 description: "Notable members and contributors to 10BitWorks."
 isPublished: true
 type: reference
-tags: volunteer, membership
+tags: contributor, membership
 ---
 
 # Volunteers
@@ -14,5 +14,5 @@ Inclusion here generally means the individual has served on the Board of Directo
 
 ## Notable Contributors
 
-- [Connor](/volunteers/connor) — Board of Directors / Primary Systems Administrator
+- [Connor](/contributors/connor) — Board of Directors / Primary Systems Administrator
 

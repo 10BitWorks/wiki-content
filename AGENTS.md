@@ -63,8 +63,8 @@ operations/                     ← physical access control, facility ops, auth 
   front-door-access-system.md
   passkeys.md
 
-volunteers.md                   ← landing page for /volunteers
-volunteers/
+contributors.md                   ← landing page for /contributors
+contributors/
   connor.md                     ← notable member profiles
   ...
 ```
@@ -156,7 +156,7 @@ isPublished: true
 - **IoT Devices** are considered infrastructure. Put them in `infrastructure/iot/` with a landing page at `infrastructure/iot.md`.
 - **`operations/`**: Physical access control, facility ops, and auth/identity concepts (e.g., passkeys). Cameras, IoT devices, and embedded systems go in `infrastructure/iot/`.
 - **No `evaluations/` or `concepts/` folder**: Evaluation content belongs on the relevant service/device page. Conceptual reference pages belong in the most relevant operational folder.
-- **`volunteers/`**: Reserved for notable members (e.g., board members, project leads, or individuals with multiple significant non-financial contributions). Do not create pages for general members. **Filename is first name only** (`connor.md`); full name goes in the `title:` frontmatter. One page per person — merge into the existing page rather than creating a second.
+- **`contributors/`**: Reserved for notable members (e.g., board members, project leads, or individuals with multiple significant non-financial contributions). Do not create pages for general members. **Filename is first name only** (`connor.md`); full name goes in the `title:` frontmatter. One page per person — merge into the existing page rather than creating a second.
 - **`.raw/`**: A hidden directory used strictly for agent memory (e.g. storing massive extracted text dumps from manuals or unparsed transcripts). Wiki.js ignores directories starting with `.` so these files will not clutter the human UI. Do not put polished content here.
 
 ---

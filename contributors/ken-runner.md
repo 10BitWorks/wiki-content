@@ -1,17 +1,17 @@
 ---
-title: "Hunter Wright"
+title: "Contributor profile"
 created: 2026-06-15
 updated: 2026-06-15
 type: governance
-tags: volunteer, board
-description: "Board member profile for Hunter Wright."
+tags: contributor, board
+description: "Board member profile for Ken Runner."
 isPublished: true
 ---
 
-# Hunter Wright
+# Ken Runner
 
 - **Role**: Board Member
-- **Slack**: `@hunter`
+- **Slack**: `@krunner`
 
 ## Contributions
 *Profile to be populated with specific project leadership and non-financial contributions.*

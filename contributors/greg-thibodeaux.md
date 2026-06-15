@@ -1,17 +1,17 @@
 ---
-title: "Eric Spehr"
+title: "Contributor profile"
 created: 2026-06-15
 updated: 2026-06-15
 type: governance
-tags: volunteer, board
-description: "Board member profile for Eric Spehr."
+tags: contributor, board
+description: "Board member profile for Greg Thibodeaux."
 isPublished: true
 ---
 
-# Eric Spehr
+# Greg Thibodeaux
 
 - **Role**: Board Member
-- **Slack**: `@riivasus`
+- **Slack**: `@thibo`
 
 ## Contributions
 *Profile to be populated with specific project leadership and non-financial contributions.*

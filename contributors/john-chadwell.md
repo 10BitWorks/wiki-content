@@ -1,9 +1,9 @@
 ---
-title: "John Chadwell"
+title: "Contributor profile"
 created: 2026-06-15
 updated: 2026-06-15
 type: reference
-tags: volunteer, board
+tags: contributor, board
 description: "Notable contributor and board member profile for John Chadwell."
 isPublished: true
 ---
