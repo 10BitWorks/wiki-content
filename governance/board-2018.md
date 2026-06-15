@@ -11,6 +11,15 @@ isPublished: true
 # Board of Directors 2018
 
 ## Roster
+- **Term**: 2018
+- **Election Date**: June 9, 2018
+- **President**: TBD
+- **Secretary**: TBD
+- **Treasurer**: mdgaris (resigning Treasurer)
+
+## Election Nominees
+- Terrence Baggot, Joe Rogers, Don Smeller, Ray Good, Ken Runner, Stephanie Garis, Sue Baldor
+
 - Don Smeller
 - Terrence Baggot
 - Ken Runner

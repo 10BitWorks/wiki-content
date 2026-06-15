@@ -11,6 +11,15 @@ isPublished: true
 # Board of Directors 2026
 
 ## Roster
+- **Term**: 2026
+- **Election Date**: June 2025
+- **President**: Connor Doherty
+- **Secretary**: TBD
+- **Treasurer**: TBD
+
+## Election Nominees
+- N/A
+
 - [Connor Doherty](/volunteers/connor-doherty) (President)
 - [Greg Thibodeaux](/volunteers/greg-thibodeaux) (Board Member)
 - [Eric Spehr](/volunteers/eric-spehr) (Board Member)
