@@ -60,10 +60,19 @@ concepts/
 governance/
 ```
 
-### Naming Rules
+### Naming & Path Rules
 - All folder and file names: **lowercase**, hyphens, alphanumeric only.
 - No quotes or special characters in filenames.
 - Index pages are always named after their parent folder (`servers.md`, `hosted.md`, `equipment.md`).
+- **Standard Links:** Use standard markdown links `[Title](/folder/page-slug)` instead of Obsidian `[[wikilinks]]`. Wiki.js handles standard paths better.
+
+## Formatting & Style Conventions
+
+- **No Redundant H1s:** Wiki.js automatically renders the page title as an H1 heading. If the first `# Heading` in the content body matches the title, omit it to avoid double-headers in the Web UI.
+- **Callouts:** Natively support Wiki.js colored callout blocks by putting `{.is-info}` (blue), `{.is-success}` (green), `{.is-warning}` (yellow), or `{.is-danger}` (red) immediately after a blockquote line.
+- **Link Lists:** Format link grids using standard bullet lists followed immediately by `{.links-list}`.
+- **Cross-linking:** Ensure every page has a minimum of 2 outbound links to keep the knowledge graph connected.
+- **Git Commits as Logs:** Explain your reasoning in the extended commit body (`git commit -m "title" -m "reasoning"`). Never maintain a separate `log.md` file in the repository.
 
 ## Tags — Host-Based Tagging
 
@@ -104,7 +113,7 @@ Additional required tags:
 **Meta**
 - `network-inventory`, `meeting-notes`, `policy`
 
-## Frontmatter (updated)
+## Frontmatter
 
 ```yaml
 ---
@@ -134,11 +143,6 @@ isPublished: true
 ## Special Pages
 
 - `network-inventory.md` is the single source of truth for IP/MAC lookup. It may contain multiple tables (Core, Cameras, IoT, Workshop). Only link to pages that actually exist.
-
-This structure is designed to be:
-- Extremely predictable for agents
-- Still pleasant for human browsing via Wiki.js folder indexes
-- Resistant to the "thousands of empty stubs" problem
 
 ---
 *Last updated: 2026-06-15 — Major restructure to separate infrastructure, services, and equipment with host-based tagging.*
