@@ -15,11 +15,8 @@ All applications running in containers on the main infrastructure nodes.
 ## Active Services
 
 - [Kanidm](/services/hosted/kanidm) — Identity provider & SSO
-- [n8n](/services/hosted/n8n) — Workflow automation
-- [CiviCRM](/services/hosted/civicrm) — Membership & donations
-- [Zammad](/services/hosted/zammad) — Helpdesk / ticketing
-- [Vaultwarden](/services/hosted/vaultwarden) — Password manager
-- ResourceSpace, AppFlowy, Wiki.js, and others...
+- [Wiki VM on Zelda](/services/hosted/wiki-vm-on-zelda) — Wiki.js instance
+- [Docker Portainer Host on Link](/services/hosted/docker-portainer-host-on-link) — Portainer management
 
 ## Maintenance
 

@@ -16,8 +16,7 @@ This section contains documentation for the main compute nodes at 10BitWorks.
 
 - [Zelda Server (Proxmox)](/infrastructure/servers/zelda-server-proxmox) — Main hypervisor (Dell Wyse 5070)
 - [Link Server (Proxmox)](/infrastructure/servers/link-server-proxmox) — Secondary hypervisor
-- [Oracle Cloud Instance](/infrastructure/servers/oracle-cloud) — Primary public-facing node (Coolify)
 
 ## Planned / Future
 
-- Documentation for additional nodes will be added here as they come online.
+- [Oracle Cloud Instance](/infrastructure/servers/oracle-cloud) — Primary public-facing node (Coolify)
