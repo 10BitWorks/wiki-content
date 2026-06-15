@@ -1,22 +1,24 @@
 ---
-title: Laser Room Camera
+title: "Doorbell Camera (Wyze v1)"
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-15
 type: entity
-tags: network, operations
-description: "Network details and configuration for Laser Room Camera"
+tags: network, operations, pfsense-hosted
+description: "Network details and configuration for Doorbell Camera (Wyze v1)"
 isPublished: true
 ---
 
-- Hostname: cam-laser
-- mDNS: cam-wyze3-laser.local
-- IP: 10.7.1.131 (DHCP)
-- MAC: 02:F9:1F:5A:98:84
+
+- Hostname: doorbell-wyze1
+- mDNS: doorbell-wyze1.local
+- IP: 10.7.1.121 (DHCP)
+- MAC: 02:74:51:53:96:e8
 - OS: Thingino Linux (Build 2026.x)
-- Model: Wyze Camera v3
+- Model: Wyze Video Doorbell v1
 - Port: 80 (http) - Thingino Web Interface
 - Port: 554 (rtsp) - RTSP Camera Stream
 - Port: 8080 (admin) - Thingino Admin/Debug UI
+High-power monitoring and workshop tools.
 
 
 

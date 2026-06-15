@@ -1,17 +1,18 @@
 ---
-title: Kiln Area Camera
+title: "Laser Room Camera"
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-15
 type: entity
-tags: network, operations
-description: "Network details and configuration for Kiln Area Camera"
+tags: network, operations, pfsense-hosted
+description: "Network details and configuration for Laser Room Camera"
 isPublished: true
 ---
 
-- Hostname: cam-kilns
-- mDNS: 10bit-wyze3-kilns.local (Legacy: cam-wyze3-kilns)
-- IP: 10.7.1.137 (DHCP)
-- MAC: 02:3A:78:84:CB:18
+
+- Hostname: cam-laser
+- mDNS: cam-wyze3-laser.local
+- IP: 10.7.1.131 (DHCP)
+- MAC: 02:F9:1F:5A:98:84
 - OS: Thingino Linux (Build 2026.x)
 - Model: Wyze Camera v3
 - Port: 80 (http) - Thingino Web Interface

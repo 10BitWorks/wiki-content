@@ -1,12 +1,13 @@
 ---
-title: Secondary DNS Server
+title: "Secondary DNS Server"
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-15
 type: entity
-tags: network
+tags: network, link-hosted, networking
 description: "Network details and configuration for Secondary DNS Server"
 isPublished: true
 ---
+
 
 - Hostname: pihole1
 - mDNS: pihole1.local

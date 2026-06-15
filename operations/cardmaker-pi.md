@@ -1,12 +1,13 @@
 ---
-title: Cardmaker Pi
+title: "Cardmaker Pi"
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-15
 type: entity
-tags: network
+tags: network, pfsense-hosted
 description: "Network details and configuration for Cardmaker Pi"
 isPublished: true
 ---
+
 
 - Hostname: cardPi
 - mDNS: cardPi.local

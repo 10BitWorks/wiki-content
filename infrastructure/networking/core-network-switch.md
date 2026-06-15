@@ -1,12 +1,13 @@
 ---
-title: Core Network Switch - Coruscant
-description: Network details and configuration for Core Network Switch
-published: true
-date: 2026-06-14T22:11:16.912Z
-tags: network
-editor: markdown
-dateCreated: 2026-06-14T11:10:06.605Z
+title: "Core Network Switch - Coruscant"
+created: 2026-06-15
+updated: 2026-06-15
+type: reference
+tags: network, pfsense-hosted, networking
+description: "Network details and configuration for Core Network Switch"
+isPublished: true
 ---
+
 
 # Core Network Switch
 

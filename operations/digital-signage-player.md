@@ -1,12 +1,13 @@
 ---
-title: Digital Signage Player
+title: "Digital Signage Player"
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-15
 type: entity
-tags: network, operations
+tags: network, operations, zelda-hosted
 description: "Network details and configuration for Digital Signage Player"
 isPublished: true
 ---
+
 
 - Hostname: zotac
 - mDNS: zotac.local

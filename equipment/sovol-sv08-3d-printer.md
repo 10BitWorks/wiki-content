@@ -1,12 +1,13 @@
 ---
-title: Sovol SV08 (3D Printer)
+title: "Sovol SV08 (3D Printer)"
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-15
 type: entity
-tags: 3d-printer, network
+tags: 3d-printer, network, pfsense-hosted
 description: "Network details and configuration for Sovol SV08 (3D Printer)"
 isPublished: true
 ---
+
 
 - Hostname: SPI-XI
 - mDNS: SPI-XI.local

@@ -1,12 +1,13 @@
 ---
-title: Amcrest turret Camera (front of shop)
+title: "Amcrest turret Camera (front of shop)"
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-15
 type: entity
-tags: network, operations
+tags: network, operations, pfsense-hosted
 description: "Network details and configuration for Amcrest turret Camera (front of shop)"
 isPublished: true
 ---
+
 
 - Hostname: Amcrest1
 - mDNS: Supported (10bit-amcrest-front.local)

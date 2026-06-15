@@ -1,22 +1,25 @@
 ---
-title: Woodshop Camera
+title: "Outside Camera (Wyze)"
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-15
 type: entity
-tags: network, operations
-description: "Network details and configuration for Woodshop Camera"
+tags: network, operations, pfsense-hosted
+description: "Network details and configuration for Outside Camera (Wyze)"
 isPublished: true
 ---
 
-- Hostname: cam-wood
-- mDNS: 10bit-wyze3-wood.local (Legacy: cam-wyze3-woodworking)
-- IP: 10.7.1.143 (DHCP)
-- MAC: 02:96:3E:67:F6:CC
+
+- Hostname: cam-wyze3-outside (Lease: cam-wyze3-outside)
+- mDNS: cam-wyze3-outside.local (Legacy: cam-wyze3-front)
+- IP: 10.7.1.100 (DHCP)
+- MAC: 02:10:5D:64:85:38
 - OS: Thingino Linux (Build 2026.x)
 - Model: Wyze Camera v3
 - Port: 80 (http) - Thingino Web Interface
 - Port: 554 (rtsp) - RTSP Camera Stream
 - Port: 8080 (admin) - Thingino Admin/Debug UI
+> Configured as `outside` in Frigate NVR config.
+> {.is-info}
 
 
 

@@ -1,12 +1,13 @@
 ---
-title: Primary DNS & DHCP Server
+title: "Primary DNS & DHCP Server"
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-15
 type: entity
-tags: network
+tags: network, primary-dns-hosted, networking
 description: "Network details and configuration for Primary DNS & DHCP Server"
 isPublished: true
 ---
+
 
 - Hostname: dhcp1
 - mDNS: pihole2.local
