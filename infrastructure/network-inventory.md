@@ -22,7 +22,9 @@ Only entries with significant operational depth have their own wiki pages (hyper
 | Zelda Proxmox Host | zelda | 10.7.1.240 | - | Proxmox Host (Dell Wyse 5070) | [Zelda Server](/infrastructure/servers/zelda-server-proxmox) |
 | Link Proxmox Host | link | 10.7.1.7 | - | Proxmox Host | [Link Server](/infrastructure/servers/link-server-proxmox) |
 | pfSense Firewall / Router | pfsense | 10.7.1.1 | - | Firewall / Router | [pfSense](/infrastructure/networking/pfsense) |
-| Headscale Coordination | headscale | 10.7.1.3 | - | Tailscale Coordination | [Headscale](/infrastructure/networking/headscale-coordination-server) |
+| Headscale Coordination | headscale | 10.7.1.242 (DHCP) | BC:24:11:27:00:29 (VM 200 on Zelda) | Tailscale Coordination | [Headscale](/infrastructure/networking/headscale-coordination-server) |
+| Tailscale Exit Node (LAC) | tail-lac | 10.7.1.104 (DHCP) | BC:24:11:D4:B8:C0 (VM 203 on Zelda) | Proxmox VM 203 / Debian 12 | [Tailscale Exit Node (LAC)](/infrastructure/networking/tailscale-exit-node-lac) |
+| Tailscale Exit Node (Kudu) | tail-kudu | 10.7.1.172 (DHCP) | BC:24:11:BB:03:CB (VM 205 on Zelda) | Proxmox VM 205 / Debian 12 | [Tailscale Exit Node (Kudu)](/infrastructure/networking/tailscale-exit-node-kudu) |
 | Primary DNS & DHCP Server | dhcp1 | 10.7.1.9 (Static) | BC:24:11:96:44:00 (VM 209 on Zelda) | Proxmox VM 209 / Debian (bookworm) | [Primary DNS & DHCP](/infrastructure/networking/primary-dns-dhcp-server) |
 | Secondary DNS Server | pihole1 | 10.7.1.8 (Static), 10.7.1.181 (DHCP) | B8:27:EB:68:F8:D1, B8:27:EB:3D:AD:84 | Raspberry Pi 3B+ / Debian (bookworm) | [Secondary DNS](/infrastructure/networking/secondary-dns-server) |
 | Core Network Switch | coruscant | 10.7.1.1 (Static) | B4:A8:B9:F2:67:47 | Cisco Catalyst c3850-12x48u-s / IOS 16.06.09 | [Core Network Switch](/infrastructure/networking/core-network-switch) |
@@ -66,6 +68,9 @@ Only entries with significant operational depth have their own wiki pages (hyper
 | Doorbell Camera | doorbell-wyze1 | 10.7.1.121 (DHCP) | 02:74:51:53:96:e8 | Wyze Doorbell v1 / Thingino | [Doorbell Camera (Wyze v1)](/infrastructure/cameras/doorbell-camera-wyze-v1) |
 | PTZ Camera (Glados) | Glados | 10.7.1.170 (DHCP) | F0:00:06:24:0C:4B | Jennov PTZ Camera | 554 (rtsp) - RTSP |
 | Frigate NVR | cameras | 10.7.1.31 (Static) | - | Debian LXC on Link / Frigate | [Frigate NVR](/app-services/self-hosted/frigate) |
+| Stock Wyze Camera 1 | WYZE_CAKP2JFUS-D03F2703A807 | 10.7.1.109 (DHCP) | D0:3F:27:03:A8:07 | Wyze Camera v3 / Wyze Stock | - |
+| Stock Wyze Camera 2 | WYZE_CAKP2JFUS-D03F2703A819 | 10.7.1.129 (DHCP) | D0:3F:27:03:A8:19 | Wyze Camera v3 / Wyze Stock | - |
+| Stock Wyze Camera 3 | WYZE_CAKP2JFUS-7C78B28912CB | 10.7.1.190 (DHCP) | 7C:78:B2:89:12:CB | Wyze Camera v3 / Wyze Stock | - |
 
 ---
 
@@ -94,6 +99,7 @@ Only entries with significant operational depth have their own wiki pages (hyper
 |---|---|---|---|---|
 | Murderbot | Prusa MK4 | - | - | [3D Printer (murderbot)](/equipment/3d-printer-murderbot) |
 | Sovol SV08 | 3D Printer | - | - | [Sovol SV08 (3D Printer)](/equipment/sovol-sv08-3d-printer) |
+| OctoPrint | octoprint | 10.7.1.99 (DHCP) | B8:27:EB:2D:1F:ED | OctoPi / Raspberry Pi | 80 (http) - OctoPrint Web UI |
 | Laser Cutter | - | - | - | Laser Cutter |
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: Tailscale Exit Node (Kudu)
 created: 2026-06-14
-updated: 2026-06-14
-type: entity
+updated: 2026-06-15
+type: reference
 tags: network, tailscale
-description: "Network details and configuration for Tailscale Exit Node (Kudu)"
+description: "Tailscale exit node bridging hosted Headscale network to Eric's personal tailnet."
 isPublished: true
 ---
 
@@ -14,7 +14,3 @@ isPublished: true
 - MAC: BC:24:11:BB:03:CB
 - OS: Debian 12 (VM 205 on Zelda)
 - Model: Proxmox VM 205
---
---
-Off-site shared servers and cloud-hosted assets.
-
