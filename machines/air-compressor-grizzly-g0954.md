@@ -10,6 +10,8 @@ isPublished: true
 
 # Grizzly PRO G0954 Air Compressor
 
+![Grizzly PRO G0954 Air Compressor](/assets/images/grizzly-compressor-full.jpeg)
+
 ## General Information
 - **Brand:** Grizzly PRO®
 - **Model:** G0954
@@ -21,6 +23,9 @@ isPublished: true
 
 ## Detailed Specifications
 Based on the Mega Compressor nameplate (MP-6060VUC):
+
+![Mega Compressor Nameplate](/assets/images/grizzly-compressor-specs.jpeg)
+
 - **Motor:** US
 - **RPM:** 1150
 - **CFM:** 11.2 @ 90 PSI
@@ -41,6 +46,8 @@ Based on the Mega Compressor nameplate (MP-6060VUC):
 - **Bearings:** Prelubricated ball bearings (no further lubrication required)
 
 ## Operations and Safety
+![Safety Warnings](/assets/images/grizzly-compressor-warning.jpeg)
+
 - **DRAIN AFTER EACH USE!!** (Handwritten instruction on the tank dome)
 - Drain moisture from the tank after each use and promptly replace a damaged tank.
 - Locate the compressor at least 20 feet from any spray area.
@@ -50,5 +57,7 @@ Based on the Mega Compressor nameplate (MP-6060VUC):
 *Note: For the full list of safety instructions (Items 1-20), refer to the primary warning label on the compressor tank.*
 
 ## Maintenance Replacement Parts
+![Intake Filter](/assets/images/grizzly-compressor-filter.jpeg)
+
 - **Pump Intake Filter:** Powswopx 20mm VH901700AV (Barcode/ID: X003JB2TWF)
 
