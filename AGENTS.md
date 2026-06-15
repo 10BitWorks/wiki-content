@@ -42,10 +42,15 @@ governance/
 
 infrastructure/
   network-inventory.md          ← master device table (always at this path)
+  access-control.md             ← landing page for /infrastructure/access-control (sibling)
+  access-control/               ← door controllers, card provisioning, physical access
+    access-card-system.md
+    front-door-pi-controllers.md
+    cardmaker-pi.md
   iot.md                        ← landing page for /infrastructure/iot (sibling)
   iot/                          ← cameras, embedded systems, IoT devices
-    frigate-nvr-server.md
-    cardmaker-pi.md
+    kiln-monitor.md
+    digital-signage-player.md
     ...
   networking.md                 ← landing page for /infrastructure/networking (sibling)
   networking/
@@ -59,8 +64,7 @@ infrastructure/
     link-server-proxmox.md
     ...
 
-operations/                     ← physical access control, facility ops, auth concepts
-  front-door-access-system.md
+operations/                     ← facility ops and auth/identity concepts
   passkeys.md
 
 contributors.md                   ← landing page for /contributors

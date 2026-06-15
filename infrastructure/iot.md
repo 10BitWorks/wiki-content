@@ -21,6 +21,5 @@ IoT devices, security cameras, and embedded systems that form part of the 10BitW
 ## Embedded Systems
 
 - [Kiln Monitor](/infrastructure/iot/kiln-monitor) — Thermal sensor and automation script
-- [Cardmaker Pi](/infrastructure/iot/cardmaker-pi) — Member card badge provisioning
 - [Digital Signage Player](/infrastructure/iot/digital-signage-player) — Xibo client for in-space displays
 

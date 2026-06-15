@@ -20,7 +20,7 @@ Connor is the primary systems administrator and creator of the Hermes AI agent f
 *   pfSense Captive Portal & OIDC Integration
 *   Kanidm (Identity Provider)
 *   Coolify (Cloud Deployments)
-*   Front Door Access Controllers (cobalt & frontdoor)
+*   [Front Door Pi Controllers](/infrastructure/access-control/front-door-pi-controllers) — Cobalt improvements, chiptune audio, and automated recovery
 
 ## Contact
 *   **Slack**: `@Connor` (UID: `U07NG5RF8UA`)

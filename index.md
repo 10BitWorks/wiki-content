@@ -25,6 +25,12 @@ isPublished: true
 - [Tailscale Exit Node (LAC)](/infrastructure/networking/tailscale-exit-node-lac) — Remote routing node
 - [Passkeys (WebAuthn)](/operations/passkeys) — Secure authentication overview
 
+## Infrastructure — Access Control
+
+- [Access Card System](/infrastructure/access-control/access-card-system) — RFID member access overview
+- [Front Door Pi Controllers](/infrastructure/access-control/front-door-pi-controllers) — Door controller hardware and software
+- [Cardmaker Pi](/infrastructure/access-control/cardmaker-pi) — Card badge provisioning station
+
 ## Infrastructure — IoT & Cameras
 
 - [Frigate NVR Server](/infrastructure/iot/frigate-nvr-server) — Shop security camera server
@@ -35,12 +41,10 @@ isPublished: true
 - [Kiln Monitor](/infrastructure/iot/kiln-monitor) — Thermal sensor automation script
 - [Laser Room Camera](/infrastructure/iot/laser-room-camera) — Laser room vision
 - [Woodshop Camera](/infrastructure/iot/woodshop-camera) — Woodshop space vision
-- [Cardmaker Pi](/infrastructure/iot/cardmaker-pi) — Card badge processing Raspberry Pi
 - [Digital Signage Player](/infrastructure/iot/digital-signage-player) — Xibo player client
 
 ## Operations
 
-- [Front Door Access System](/operations/front-door-access-system) — Physical access security
 - [Passkeys (WebAuthn)](/operations/passkeys) — Secure authentication overview
 
 ## App Services — Self-Hosted

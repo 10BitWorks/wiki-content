@@ -10,5 +10,4 @@ Day-to-day operational systems at 10BitWorks — physical access, facility manag
 
 ## Pages
 
-- [Front Door Access System](/operations/front-door-access-system) — Physical access control and door management
 - [Passkeys (WebAuthn)](/operations/passkeys) — Authentication framework used across 10BitWorks services

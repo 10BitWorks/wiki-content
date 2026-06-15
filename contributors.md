@@ -15,4 +15,5 @@ Inclusion here generally means the individual has served on the Board of Directo
 ## Notable Contributors
 
 - [Connor](/contributors/connor) — Board of Directors / Primary Systems Administrator
+- [Ray](/contributors/ray) — Access Control Hardware and Software
 

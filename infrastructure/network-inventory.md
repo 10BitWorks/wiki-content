@@ -27,10 +27,10 @@ Only entries with significant operational depth have their own wiki pages (hyper
 | Secondary DNS Server | pihole1 | 10.7.1.8 (Static), 10.7.1.181 (DHCP) | B8:27:EB:68:F8:D1, B8:27:EB:3D:AD:84 | Raspberry Pi 3B+ / Debian (bookworm) | [Secondary DNS](/infrastructure/networking/secondary-dns-server) |
 | Core Network Switch | coruscant | 10.7.1.1 (Static) | B4:A8:B9:F2:67:47 | Cisco Catalyst c3850-12x48u-s / IOS 16.06.09 | [Core Network Switch](/infrastructure/networking/core-network-switch) |
 | Shared Oracle ARM Server | 10bitworks | 100.64.0.15 (Tailscale) | - | Oracle Cloud A1.Flex / Ubuntu 24.04 ARM | Shared Oracle ARM Server |
-| New Door Access Controller | cobalt | 10.7.1.59 (Static) | - | Raspberry Pi 3B+ / Raspbian | [Front Door Access](/operations/front-door-access-system) |
-| Old Door Access Controller | frontdoor | 10.7.1.6 (Static) | B8:27:EB:1B:CE:EF | Raspberry Pi 3B+ / Raspbian | [Front Door Access](/operations/front-door-access-system) |
+| New Door Access Controller | cobalt | 10.7.1.59 (Static) | - | Raspberry Pi 3B+ / Raspbian | [Front Door Pi Controllers](/infrastructure/access-control/front-door-pi-controllers) |
+| Old Door Access Controller | frontdoor | 10.7.1.6 (Static) | B8:27:EB:1B:CE:EF | Raspberry Pi 3B+ / Raspbian | [Front Door Pi Controllers](/infrastructure/access-control/front-door-pi-controllers) |
 | Door Admin Panel | door1 | 10.7.1.244 (Static) | - | Proxmox LXC 204 on Zelda / Debian | 8000 (http) - Door Admin Dashboard |
-| Cardmaker Pi | cardPi | 10.7.1.136 (DHCP) | - | Raspberry Pi / Raspbian | 22 (ssh), user chale, pswd c@rdmaker |
+| Cardmaker Pi | cardPi | 10.7.1.136 (DHCP) | - | Raspberry Pi / Raspbian | [Cardmaker Pi](/infrastructure/access-control/cardmaker-pi) |
 | TP-Link AP | Archer_C7 | 10.7.1.152 (DHCP) | E4:C3:2A:DA:43:E0 | TP-Link Archer C7 / TP-Link Firmware | 80 (http) - Management UI |
 | Wireless AP Nighthawk | rs70 | 10.7.1.252 (DHCP) | 54:07:7D:E4:0F:88 | Netgear Nighthawk R7000 / Netgear Genie | 80 (http) - Management UI |
 | Upstream ISP Gateway | ATT-Fiber | 192.168.10.254 | - | AT&T BGW Series | 80 (http) - Gateway Web UI |
