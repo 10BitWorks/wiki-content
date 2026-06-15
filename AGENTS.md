@@ -31,15 +31,17 @@ infrastructure/
     pfsense.md
     headscale.md
     tailscale.md
+  iot/
+    iot.md                      ← index for /infrastructure/iot
 
-services/
-  hosted/
-    hosted.md                   ← index for /services/hosted
+app-services/
+  self-hosted/
+    self-hosted.md              ← index for /app-services/self-hosted
     kanidm.md
     n8n.md
-    civicrm.md
-    zammad.md
     ...
+  vendored/
+    vendored.md                 ← index for /app-services/vendored
 
 operations/
   front-door-access.md
@@ -51,10 +53,6 @@ equipment/
   laser-cutter.md
   3d-printer-murderbot.md
   ...
-
-devices/
-  personal/                     ← member devices (usually just tables)
-  iot/
 
 concepts/
 governance/
@@ -143,6 +141,8 @@ isPublished: true
 ## Special Pages
 
 - `network-inventory.md` is the single source of truth for IP/MAC lookup. It may contain multiple tables (Core, Cameras, IoT, Workshop). Only link to pages that actually exist.
+- **Member Personal Devices** (phones, laptops) are strictly inventory rows in `network-inventory.md`. They never get dedicated pages.
+- **IoT Devices** are considered infrastructure. If they need a page, put it in `infrastructure/iot/` or alongside networking, not in a generic devices folder.
 
 ---
 *Last updated: 2026-06-15 — Major restructure to separate infrastructure, services, and equipment with host-based tagging.*
