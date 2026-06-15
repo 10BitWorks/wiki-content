@@ -1,98 +1,74 @@
 ---
-title: index
-description: 
-published: true
-date: 2026-06-14T10:32:11.110Z
-tags: 
-editor: markdown
-dateCreated: 2026-06-14T09:51:41.158Z
+title: Index
+description: "Content catalog for the 10BitWorks knowledge base."
+isPublished: true
 ---
 
 # 10BitWorks Wiki Index
 
 > Content catalog for 10BitWorks. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-06-14 | Total pages: 3
+> Last updated: 2026-06-15
 
-## Entities
-- [Roster of the 2026 10BitWorks Board of Directors](/entities/board-of-directors-2026)
-- ["Wiki" VM on Zelda (includes NPM and Portainer)](/entities/wiki-vm-on-zelda)
-- [3D Printer (murderbot)](/entities/3d-printer-murderbot)
-- [Amcrest turret Camera (front of shop)](/entities/amcrest-turret-camera-front-of-shop)
-- [Cardmaker Pi](/entities/cardmaker-pi)
-- [Connor's Laptop](/entities/connor's-laptop)
-- [Connor's Phone](/entities/connor's-phone)
-- [Core Network Switch](/entities/core-network-switch)
-- [DHCP Sniffer (Stopped)](/entities/dhcp-sniffer-stopped)
-- [Digital Signage Player](/entities/digital-signage-player)
-- [Docker (Portainer) Host on Link](/entities/docker-portainer-host-on-link)
-- [Door Admin (Django database)](/entities/door-admin-django-database)
-- [Doorbell Camera (Wyze v1)](/entities/doorbell-camera-wyze-v1)
-- [Energy Monitor (Emporia)](/entities/energy-monitor-emporia)
-- [Epson Network Printer](/entities/epson-network-printer)
-- [Frigate NVR Server](/entities/frigate-nvr-server)
-- [Gemini Navigation & Editing Rules](/entities/gemini-navigation-&-editing-rules)
-- [General Purpose Device](/entities/general-purpose-device)
-- [Generic Desktop Asset](/entities/generic-desktop-asset)
-- [Generic IoT Module 1](/entities/generic-iot-module-1)
-- [Generic IoT Module 2](/entities/generic-iot-module-2)
-- [Grocy Inventory (Stopped)](/entities/grocy-inventory-stopped)
-- [Headscale Coordination Server](/entities/headscale-coordination-server)
-- [Homebox Evaluation](/entities/homebox-evaluation)
-- [Homepage Dashboard (Stopped)](/entities/homepage-dashboard-stopped)
-- [Infrastructure Monitor](/entities/infrastructure-monitor)
-- [Inventory Management System](/entities/inventory-management-system)
-- [Invoice Ninja Server](/entities/invoice-ninja-server)
-- [IoT Lighting Interface](/entities/iot-lighting-interface)
-- [Kiln Area Camera](/entities/kiln-area-camera)
-- [Kiln Monitor](/entities/kiln-monitor)
-- [Label Printing Station](/entities/label-printing-station)
-- [Laser Room Camera](/entities/laser-room-camera)
-- [Legacy Support Desk (Stopped)](/entities/legacy-support-desk-stopped)
-- [Link Out-of-Band Management](/entities/link-out-of-band-management)
-- [Link Server (Proxmox)](/entities/link-server-proxmox)
-- [Machine Console](/entities/machine-console)
-- [Maintaining](/entities/maintaining)
-- [Makerspace Documentation Site](/entities/makerspace-documentation-site)
-- [New Door Access Controller](/entities/new-door-access-controller)
-- [OctoPrint (octoprint)](/entities/octoprint-octoprint)
-- [Old Door Access Controller](/entities/old-door-access-controller)
-- [Outside Camera (Wyze)](/entities/outside-camera-wyze)
-- [Primary CMS Website](/entities/primary-cms-website)
-- [Primary DNS & DHCP Server](/entities/primary-dns-&-dhcp-server)
-- [Primary Firewall (pfSense)](/entities/primary-firewall-pfsense)
-- [PTZ Camera (Glados)](/entities/ptz-camera-glados)
-- [Roku (Hisense Smart TV)](/entities/roku-hisense-smart-tv)
-- [Secondary DNS Server](/entities/secondary-dns-server)
-- [Shared DB Instance (Stopped)](/entities/shared-db-instance-stopped)
-- [Shared Oracle ARM Server](/entities/shared-oracle-arm-server)
-- [Sovol SV08 (3D Printer)](/entities/sovol-sv08-3d-printer)
-- [Stock Wyze Camera 1](/entities/stock-wyze-camera-1)
-- [Stock Wyze Camera 2](/entities/stock-wyze-camera-2)
-- [Stock Wyze Camera 3](/entities/stock-wyze-camera-3)
-- [Tailscale Exit Node (Kudu)](/entities/tailscale-exit-node-kudu)
-- [Tailscale Exit Node (LAC)](/entities/tailscale-exit-node-lac)
-- [TP-Link Archer C7 Access Point](/entities/tp-link-archer-c7-access-point)
-- [Unknown Wi-Fi Asset](/entities/unknown-wi-fi-asset)
-- [Unknown Workshop PC (MSI)](/entities/unknown-workshop-pc-msi)
-- [Upstream ISP Gateway](/entities/upstream-isp-gateway)
-- [Wireless Access Point (Nighthawk)](/entities/wireless-access-point-nighthawk)
-- [Woodshop Camera](/entities/woodshop-camera)
-- [Wyze Light Switch 1](/entities/wyze-light-switch-1)
-- [Wyze Light Switch 2](/entities/wyze-light-switch-2)
-- [Wyze Light Switch 3](/entities/wyze-light-switch-3)
-- [Wyze Light Switch 4](/entities/wyze-light-switch-4)
-- [Wyze Sense Hub](/entities/wyze-sense-hub)
-- [Zelda Server (Proxmox)](/entities/zelda-server-proxmox)
-- [Primary Identity Provider and Directory Service for 10BitWorks.](/entities/kanidm)
-- [Core network routing and soft captive portal.](/entities/pfsense)
+## Infrastructure & Servers
 
-## Concepts
-- [Hardware evaluation and recommendations for scaling Frigate AI inference.](/concepts/frigate-hardware-eval)
-- [Default authentication mechanism for infrastructure.](/concepts/passkeys)
+- [Zelda Server (Proxmox)](/infrastructure/servers/zelda-server-proxmox) — Main hypervisor (Dell Wyse 5070)
+- [Link Server (Proxmox)](/infrastructure/servers/link-server-proxmox) — Secondary hypervisor
+- [Oracle Cloud Instance](/infrastructure/servers/oracle-cloud) — Primary public-facing node (Coolify)
+- [Network Inventory](/infrastructure/network-inventory) — Master device IP and MAC lookup tables
+- [Primary DNS & DHCP Server](/infrastructure/networking/primary-dns-dhcp-server) — DNS & DHCP services
+- [Secondary DNS Server](/infrastructure/networking/secondary-dns-server) — Secondary Pi-hole DNS
+- [Core Network Switch](/infrastructure/networking/core-network-switch) — Core network switch details
+- [pfSense](/infrastructure/networking/pfsense) — Core routing and firewall
+- [Headscale](/infrastructure/networking/headscale-coordination-server) — Coordination server for overlay mesh VPN
+- [Tailscale Exit Node (Kudu)](/infrastructure/networking/tailscale-exit-node-kudu) — Remote routing node
+- [Tailscale Exit Node (LAC)](/infrastructure/networking/tailscale-exit-node-lac) — Remote routing node
+
+## Hosted Services
+
+- [Kanidm](/services/hosted/kanidm) — Directory service and identity provider
+- [Wiki VM on Zelda](/services/hosted/wiki-vm-on-zelda) — Local Wiki.js hypervisor host
+- [Docker Portainer Host on Link](/services/hosted/docker-portainer-host-on-link) — Host management via Portainer
+- [AppFlowy](/services/hosted/appflowy) — Private project space
+- [Authentik](/services/hosted/authentik) — Single sign-on overlay provider
+- [Bookstack](/services/hosted/bookstack) — Documentation instance
+- [Dozzle](/services/hosted/dozzle) — Log viewing daemon
+- [Loomio](/services/hosted/loomio) — Consensus and decision-making platform
+- [n8n](/services/hosted/n8n) — Automation engine
+- [Plane](/services/hosted/plane) — Planning board
+- [ResourceSpace](/services/hosted/resourcespace) — Digital asset management
+- [Vaultwarden](/services/hosted/vaultwarden) — Password manager
+- [Vikunja](/services/hosted/vikunja) — Task management
+- [Wordpress CiviCRM](/services/hosted/wordpress-civicrm) — Member databases
+- [Xibo](/services/hosted/xibo) — Digital signage management
+- [Zammad](/services/hosted/zammad) — Support ticketer
+
+## Operations
+
+- [Front Door Access System](/operations/front-door-access-system) — Physical access security policies
+- [Frigate NVR Server](/operations/frigate-nvr-server) — Shop security camera server
+- [Amcrest Turret Camera](/operations/amcrest-turret-camera) — Front of shop vision
+- [Outside Camera](/operations/outside-camera-wyze) — Outside space vision
+- [Doorbell Camera](/operations/doorbell-camera-wyze-v1) — Entrance doorbell
+- [Kiln Camera](/operations/kiln-area-camera) — Kiln area vision
+- [Kiln Monitor](/operations/kiln-monitor) — Thermal sensor automation script
+- [Laser Camera](/operations/laser-room-camera) — Laser room vision
+- [Woodshop Camera](/operations/woodshop-camera) — Woodshop space vision
+- [Cardmaker Pi](/operations/cardmaker-pi) — Card badge processing Raspberry Pi
+- [Digital Signage Player](/operations/digital-signage-player) — Xibo player client
+
+## Equipment
+
+- [3D Printer (murderbot)](/equipment/3d-printer-murderbot) — Prusa MK4 3D printer SOP
+- [Sovol SV08 (3D Printer)](/equipment/sovol-sv08-3d-printer) — Sovol 3D printer SOP
+- [Laser Cutter](/equipment/laser-cutter) — Laser room cutter operations
 
 ## Policies & Governance
 
-## Machine Manuals
+- [Hosted Services Maintenance Policy](/policies/hosted-services-maintenance) — Watermark tunings & disk cleanups
+- [Facility Transition Policy](/policies/facility-transition-botts-lane) — Move-out arrangements for Lachapelle
+- [Roster of the 2026 Board of Directors](/governance/board-of-directors-2026) — Active officers list
 
-## Queries & Research
+## Concepts
 
+- [Frigate AI Inference Hardware](/concepts/frigate-hardware-eval) — Acceleration hardware evaluation
+- [Passkeys (WebAuthn)](/concepts/passkeys) — Secure authentication overview
