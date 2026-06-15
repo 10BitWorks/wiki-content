@@ -16,57 +16,61 @@ isPublished: true
 
 ## Folder Structure & Index Pages
 
-We use Wiki.js's folder-index behavior. A page named after its folder becomes the automatic index for that folder.
+Wiki.js displays a folder's landing page when a user clicks on that folder. The landing page must be a file **at the same level as the folder** (sibling), named to match the folder. It is NOT placed inside the folder.
 
 ```
-infrastructure/
-  network-inventory.md          ← master device table (always at this path)
-  servers/
-    servers.md                  ← index for /infrastructure/servers
-    zelda-server-proxmox.md
-    link-server-proxmox.md
-    oracle-cloud.md
-  networking/
-    networking.md
-    pfsense.md
-    headscale.md
-    tailscale.md
-  iot/
-    iot.md                      ← index for /infrastructure/iot
-
+app-services.md                 ← landing page for /app-services (sibling of folder)
 app-services/
+  self-hosted.md                ← landing page for /app-services/self-hosted (sibling)
   self-hosted/
-    self-hosted.md              ← index for /app-services/self-hosted
     kanidm.md
     n8n.md
     ...
+  vendored.md                   ← landing page for /app-services/vendored (sibling)
   vendored/
-    vendored.md                 ← index for /app-services/vendored
+    ...
+
+equipment.md                    ← landing page for /equipment
+equipment/
+  laser-cutter.md
+  3d-printer-murderbot.md
+  ...
+
+governance.md                   ← landing page for /governance
+governance/
+  board-2026.md
+  ...
+
+infrastructure/
+  network-inventory.md          ← master device table (always at this path)
+  networking.md                 ← landing page for /infrastructure/networking (sibling)
+  networking/
+    pfsense.md
+    headscale.md
+    tailscale.md
+  servers.md                    ← landing page for /infrastructure/servers (sibling)
+  servers/
+    zelda-server-proxmox.md
+    link-server-proxmox.md
+    ...
 
 operations/
   front-door-access.md
   cameras-frigate.md
   digital-signage.md
 
-equipment/
-  equipment.md                  ← index for /equipment
-  laser-cutter.md
-  3d-printer-murderbot.md
-  ...
-
+volunteers.md                   ← landing page for /volunteers
 volunteers/
-  volunteers.md                 ← index for /volunteers
   connor.md                     ← notable member profiles
   ...
 
 concepts/
-governance/
 ```
 
 ### Naming & Path Rules
 - All folder and file names: **lowercase**, hyphens, alphanumeric only.
 - No quotes or special characters in filenames.
-- Index pages are always named after their parent folder (`servers.md`, `hosted.md`, `equipment.md`).
+- Index/landing pages are siblings of their folder, named to match it (e.g., `servers.md` sits next to `servers/`).
 - **Standard Links:** Use standard markdown links `[Title](/folder/page-slug)` instead of Obsidian `[[wikilinks]]`. Wiki.js handles standard paths better.
 
 ## Formatting & Style Conventions
@@ -152,4 +156,4 @@ isPublished: true
 - **`.raw/`**: A hidden directory used strictly for agent memory (e.g. storing massive extracted text dumps from manuals or unparsed transcripts). Wiki.js ignores directories starting with `.` so these files will not clutter the human UI. Do not put polished content here.
 
 ---
-*Last updated: 2026-06-15 — Major restructure to separate infrastructure, services, and equipment with host-based tagging.*
+*Last updated: 2026-06-15 — Corrected folder landing page convention: index pages are siblings of their folder, not inside it.*
