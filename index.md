@@ -41,6 +41,7 @@ isPublished: true
 ## Operations
 
 - [Front Door Access System](/operations/front-door-access-system) — Physical access security
+- [Passkeys (WebAuthn)](/operations/passkeys) — Secure authentication overview
 
 ## App Services — Self-Hosted
 
@@ -78,7 +79,3 @@ isPublished: true
 - [Board of Directors 2022](/governance/board-2022) — 2022 roster
 - [Board of Directors 2021](/governance/board-2021) — 2021 roster
 - [Board of Directors 2018](/governance/board-2018) — 2018 roster
-
-## Evaluations
-
-- [Frigate AI Inference Hardware](/evaluations/frigate-hardware-eval) — Acceleration hardware evaluation

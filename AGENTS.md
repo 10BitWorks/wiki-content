@@ -35,10 +35,6 @@ equipment/
   3d-printer-murderbot.md
   ...
 
-evaluations.md                  ← landing page for /evaluations
-evaluations/
-  frigate-hardware-eval.md
-
 governance.md                   ← landing page for /governance
 governance/
   board-2026.md
@@ -63,8 +59,9 @@ infrastructure/
     link-server-proxmox.md
     ...
 
-operations/                     ← physical access control and facility ops ONLY
+operations/                     ← physical access control, facility ops, auth concepts
   front-door-access-system.md
+  passkeys.md
 
 volunteers.md                   ← landing page for /volunteers
 volunteers/
@@ -157,10 +154,10 @@ isPublished: true
 - `network-inventory.md` is the single source of truth for IP/MAC lookup. It may contain multiple tables (Core, Cameras, IoT, Workshop). Only link to pages that actually exist.
 - **Member Personal Devices** (phones, laptops) are strictly inventory rows in `network-inventory.md`. They never get dedicated pages.
 - **IoT Devices** are considered infrastructure. Put them in `infrastructure/iot/` with a landing page at `infrastructure/iot.md`.
-- **`operations/`**: Reserved strictly for physical access control and facility operations (e.g., front door system). Cameras, IoT devices, and embedded systems go in `infrastructure/iot/`.
-- **`evaluations/`**: Research notes and hardware/software evaluations. Landing page at `evaluations.md`.
+- **`operations/`**: Physical access control, facility ops, and auth/identity concepts (e.g., passkeys). Cameras, IoT devices, and embedded systems go in `infrastructure/iot/`.
+- **No `evaluations/` or `concepts/` folder**: Evaluation content belongs on the relevant service/device page. Conceptual reference pages belong in the most relevant operational folder.
 - **`volunteers/`**: Reserved for notable members (e.g., board members, project leads, or individuals with multiple significant non-financial contributions). Do not create pages for general members.
 - **`.raw/`**: A hidden directory used strictly for agent memory (e.g. storing massive extracted text dumps from manuals or unparsed transcripts). Wiki.js ignores directories starting with `.` so these files will not clutter the human UI. Do not put polished content here.
 
 ---
-*Last updated: 2026-06-15 — Corrected folder landing page convention (siblings not children); restructured operations/ to access-control only; moved IoT/cameras to infrastructure/iot/; renamed concepts/ to evaluations/.*
+*Last updated: 2026-06-15 — Removed evaluations/ and concepts/ folders; frigate eval merged into frigate page; passkeys moved to operations/.*
