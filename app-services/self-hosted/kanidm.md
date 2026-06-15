@@ -33,6 +33,6 @@ Kanidm utilizes a single-axis status model to prevent stale permissions:
 - `role_it_admins` -> Infrastructure and server access. Maps to Wiki.js "Administrators".
 
 ## Related Concepts
-- [passkeys](/concepts/passkeys)
+- [passkeys](/operations/passkeys)
 - [pfsense](/infrastructure/networking/pfsense) (Captive portal ties into identity)
 

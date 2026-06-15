@@ -26,7 +26,7 @@ Only entries with significant operational depth have their own wiki pages (hyper
 | Primary DNS & DHCP Server | dhcp1 | 10.7.1.9 (Static) | BC:24:11:96:44:00 (VM 209 on Zelda) | Proxmox VM 209 / Debian (bookworm) | [Primary DNS & DHCP](/infrastructure/networking/primary-dns-dhcp-server) |
 | Secondary DNS Server | pihole1 | 10.7.1.8 (Static), 10.7.1.181 (DHCP) | B8:27:EB:68:F8:D1, B8:27:EB:3D:AD:84 | Raspberry Pi 3B+ / Debian (bookworm) | [Secondary DNS](/infrastructure/networking/secondary-dns-server) |
 | Core Network Switch | coruscant | 10.7.1.1 (Static) | B4:A8:B9:F2:67:47 | Cisco Catalyst c3850-12x48u-s / IOS 16.06.09 | [Core Network Switch](/infrastructure/networking/core-network-switch) |
-| Shared Oracle ARM Server | 10bitworks | 100.64.0.15 (Tailscale) | - | Oracle Cloud A1.Flex / Ubuntu 24.04 ARM | [Oracle Cloud](/infrastructure/servers/oracle-cloud) |
+| Shared Oracle ARM Server | 10bitworks | 100.64.0.15 (Tailscale) | - | Oracle Cloud A1.Flex / Ubuntu 24.04 ARM | Shared Oracle ARM Server |
 | New Door Access Controller | cobalt | 10.7.1.59 (Static) | - | Raspberry Pi 3B+ / Raspbian | [Front Door Access](/operations/front-door-access-system) |
 | Old Door Access Controller | frontdoor | 10.7.1.6 (Static) | B8:27:EB:1B:CE:EF | Raspberry Pi 3B+ / Raspbian | [Front Door Access](/operations/front-door-access-system) |
 | Door Admin Panel | door1 | 10.7.1.244 (Static) | - | Proxmox LXC 204 on Zelda / Debian | 8000 (http) - Door Admin Dashboard |
@@ -58,13 +58,13 @@ Only entries with significant operational depth have their own wiki pages (hyper
 
 | Device / Title | Hostname | IP | MAC | Model / OS | Ports / Notes |
 |---|---|---|---|---|---|
-| Front of Shop | - | - | - | Amcrest Turret (4MP) | [Amcrest Turret Camera](/operations/amcrest-turret-camera) |
-| Outside Camera | - | - | - | Wyze v3 (Thingino) | [Outside Camera](/operations/outside-camera-wyze) |
-| Kilns Camera | - | - | - | Wyze v3 (Thingino) | [Kilns Camera](/operations/kiln-area-camera) |
-| Kiln Monitor | kiln-mon | 10.7.1.xxx | - | Raspberry Pi / Custom script | [Kiln Monitor](/operations/kiln-monitor) |
-| Laser Room Camera | - | - | - | Wyze v3 (Thingino) | [Laser Room Camera](/operations/laser-room-camera) |
-| Woodshop Camera | - | - | - | Wyze v3 (Thingino) | [Woodshop Camera](/operations/woodshop-camera) |
-| Doorbell Camera | doorbell | 10.7.1.121 | - | Wyze Doorbell v1 (Thingino) | [Doorbell Camera](/operations/doorbell-camera-wyze-v1) |
+| Front of Shop | - | - | - | Amcrest Turret (4MP) | [Amcrest Turret Camera](/infrastructure/iot/amcrest-turret-camera) |
+| Outside Camera | - | - | - | Wyze v3 (Thingino) | [Outside Camera](/infrastructure/iot/outside-camera-wyze) |
+| Kilns Camera | - | - | - | Wyze v3 (Thingino) | [Kilns Camera](/infrastructure/iot/kiln-area-camera) |
+| Kiln Monitor | kiln-mon | 10.7.1.xxx | - | Raspberry Pi / Custom script | [Kiln Monitor](/infrastructure/iot/kiln-monitor) |
+| Laser Room Camera | - | - | - | Wyze v3 (Thingino) | [Laser Room Camera](/infrastructure/iot/laser-room-camera) |
+| Woodshop Camera | - | - | - | Wyze v3 (Thingino) | [Woodshop Camera](/infrastructure/iot/woodshop-camera) |
+| Doorbell Camera | doorbell | 10.7.1.121 | - | Wyze Doorbell v1 (Thingino) | [Doorbell Camera](/infrastructure/iot/doorbell-camera-wyze-v1) |
 | PTZ Camera (Glados) | Glados | 10.7.1.170 (DHCP) | F0:00:06:24:0C:4B | Jennov PTZ Camera | 554 (rtsp) - RTSP |
 
 ---
@@ -93,7 +93,7 @@ Only entries with significant operational depth have their own wiki pages (hyper
 |---|---|---|---|---|
 | Murderbot | Prusa MK4 | - | - | [3D Printer (murderbot)](/equipment/3d-printer-murderbot) |
 | Sovol SV08 | 3D Printer | - | - | [Sovol SV08 (3D Printer)](/equipment/sovol-sv08-3d-printer) |
-| Laser Cutter | - | - | - | [Laser Cutter](/equipment/laser-cutter) |
+| Laser Cutter | - | - | - | Laser Cutter |
 
 ---
 

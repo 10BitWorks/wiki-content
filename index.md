@@ -23,7 +23,7 @@ isPublished: true
 - [Headscale](/infrastructure/networking/headscale-coordination-server) — Coordination server for overlay mesh VPN
 - [Tailscale Exit Node (Kudu)](/infrastructure/networking/tailscale-exit-node-kudu) — Remote routing node
 - [Tailscale Exit Node (LAC)](/infrastructure/networking/tailscale-exit-node-lac) — Remote routing node
-- [Passkeys (WebAuthn)](/infrastructure/networking/passkeys) — Secure authentication overview
+- [Passkeys (WebAuthn)](/operations/passkeys) — Secure authentication overview
 
 ## Infrastructure — IoT & Cameras
 

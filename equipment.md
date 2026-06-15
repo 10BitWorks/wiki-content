@@ -15,9 +15,5 @@ Major tools and machines at 10BitWorks that have dedicated procedures, maintenan
 ## Current Equipment
 
 - [3D Printer (murderbot)](/equipment/3d-printer-murderbot)
-- [Laser Cutter](/equipment/laser-cutter)
-- CNC Mill
-- Table Saw
-- ... (more to be added)
 
 Smaller or less-documented tools remain in the [Network Inventory](/infrastructure/network-inventory) tables only.

@@ -16,7 +16,8 @@ Documentation for the main networking components at 10BitWorks.
 
 - [pfSense](/infrastructure/networking/pfsense) — Firewall, routing, DHCP, DNS
 - [Headscale](/infrastructure/networking/headscale-coordination-server) — Tailscale coordination server
-- [Tailscale](/infrastructure/networking/tailscale) — Mesh VPN overlay
+- [Tailscale Exit Node (Kudu)](/infrastructure/networking/tailscale-exit-node-kudu) — Mesh VPN exit node
+- [Tailscale Exit Node (LAC)](/infrastructure/networking/tailscale-exit-node-lac) — Mesh VPN exit node
 
 ## Related
 

@@ -12,7 +12,7 @@ isPublished: true
 
 Index of all software services utilized for makerspace operations.
 
-## [Self-Hosted Services](/app-services/self-hosted/self-hosted)
+## [Self-Hosted Services](/app-services/self-hosted)
 Applications running on physical hypervisors at 10BitWorks or on our cloud nodes.
 - [Kanidm](/app-services/self-hosted/kanidm)
 - [Wiki.js](/app-services/self-hosted/wiki-vm-on-zelda)
@@ -21,7 +21,7 @@ Applications running on physical hypervisors at 10BitWorks or on our cloud nodes
 - [Zammad](/app-services/self-hosted/zammad)
 - [Vaultwarden](/app-services/self-hosted/vaultwarden)
 
-## [Vendored & SaaS Services](/app-services/vendored/vendored)
+## [Vendored & SaaS Services](/app-services/vendored)
 External cloud platforms, SaaS, and integrations managed by 10BitWorks.
 - Slack
 - GitHub
