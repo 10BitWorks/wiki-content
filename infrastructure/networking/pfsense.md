@@ -23,6 +23,6 @@ Consolidating DHCP and DNS onto pfSense eliminates "split-brain" issues and enab
 We use a modern OIDC-backed Captive Portal (RFC 8908) to replace RADIUS/WPA2-Enterprise:
 1. **Radio Layer:** WPA2-Personal (PSK) using the "wall password."
 2. **Discovery:** pfSense broadcasts **DHCP Option 114** pointing to `https://id.10bitworks.org/api/capport`.
-3. **Silent Auth:** Modern devices open a background window. If the member is already logged in to [kanidm](/entities/kanidm), the portal auto-authorizes the MAC address instantly.
+3. **Silent Auth:** Modern devices open a background window. If the member is already logged in to [kanidm](/services/hosted/kanidm), the portal auto-authorizes the MAC address instantly.
 4. **Persistency:** Successful logins whitelist the MAC for 1 year, ensuring passive presence tracking for dashboards.
 

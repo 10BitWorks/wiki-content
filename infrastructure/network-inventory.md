@@ -22,7 +22,7 @@ Only entries with significant operational depth have their own wiki pages (hyper
 | Zelda Proxmox Host | zelda | 10.7.1.240 | - | Proxmox Host (Dell Wyse 5070) | [Zelda Server](/infrastructure/servers/zelda-server-proxmox) |
 | Link Proxmox Host | link | 10.7.1.7 | - | Proxmox Host | [Link Server](/infrastructure/servers/link-server-proxmox) |
 | pfSense Firewall / Router | pfsense | 10.7.1.1 | - | Firewall / Router | [pfSense](/infrastructure/networking/pfsense) |
-| Headscale Coordination | headscale | 10.7.1.3 | - | Tailscale Coordination | [Headscale](/infrastructure/networking/headscale) |
+| Headscale Coordination | headscale | 10.7.1.3 | - | Tailscale Coordination | [Headscale](/infrastructure/networking/headscale-coordination-server) |
 | Primary DNS & DHCP Server | dhcp1 | 10.7.1.9 (Static) | BC:24:11:96:44:00 (VM 209 on Zelda) | Proxmox VM 209 / Debian (bookworm) | [Primary DNS & DHCP](/infrastructure/networking/primary-dns-dhcp-server) |
 | Secondary DNS Server | pihole1 | 10.7.1.8 (Static), 10.7.1.181 (DHCP) | B8:27:EB:68:F8:D1, B8:27:EB:3D:AD:84 | Raspberry Pi 3B+ / Debian (bookworm) | [Secondary DNS](/infrastructure/networking/secondary-dns-server) |
 | Core Network Switch | coruscant | 10.7.1.1 (Static) | B4:A8:B9:F2:67:47 | Cisco Catalyst c3850-12x48u-s / IOS 16.06.09 | [Core Network Switch](/infrastructure/networking/core-network-switch) |

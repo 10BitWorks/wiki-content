@@ -15,7 +15,7 @@ Documentation for the main networking components at 10BitWorks.
 ## Active Components
 
 - [pfSense](/infrastructure/networking/pfsense) — Firewall, routing, DHCP, DNS
-- [Headscale](/infrastructure/networking/headscale) — Tailscale coordination server
+- [Headscale](/infrastructure/networking/headscale-coordination-server) — Tailscale coordination server
 - [Tailscale](/infrastructure/networking/tailscale) — Mesh VPN overlay
 
 ## Related
