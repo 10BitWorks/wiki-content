@@ -48,3 +48,6 @@ Based on the Mega Compressor nameplate (MP-6060VUC):
 - The compressor parts will be hot during and immediately following operation.
 
 *Note: For the full list of safety instructions (Items 1-20), refer to the primary warning label on the compressor tank.*
+
+## Maintenance Replacement Parts
+- **Pump Intake Filter:** Powswopx 20mm VH901700AV (Barcode/ID: X003JB2TWF)
