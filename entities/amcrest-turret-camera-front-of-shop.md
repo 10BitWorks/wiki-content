@@ -32,3 +32,4 @@ r doorbell_entry.txt
 - **AI Detection:** Smart Motion Detection (SMD) for Human and Motor Vehicle targets.
 - **Protocols:** RTSP, ONVIF, CGI API control.
 - **Audio:** Built-in Mic/Speaker (AAC support).
+

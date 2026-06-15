@@ -35,3 +35,4 @@ Kanidm utilizes a single-axis status model to prevent stale permissions:
 ## Related Concepts
 - [passkeys](/concepts/passkeys)
 - [pfsense](/entities/pfsense) (Captive portal ties into identity)
+

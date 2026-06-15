@@ -18,3 +18,4 @@ As of the 2026 facility transition planning, the active Board of Directors consi
 - Hunter
 
 The Board's primary focus in 2026 was identifying root causes of membership churn and executing the transition from Lachapelle to the new Botts Lane facility.
+

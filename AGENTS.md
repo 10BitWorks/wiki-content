@@ -20,7 +20,7 @@ dateCreated: 2026-06-14T09:51:38.498Z
 - Feel free to use advanced Markdown (PlantUML, KaTeX, MultiMarkdown tables, Task lists) — the Wiki.js rendering pipeline has full support enabled.
 - When updating a page, always bump the `updated` date
 - Every new page must be added to `index.md` under the correct section
-- Every action must be appended to `log.md`
+- **Git Commits as Logs:** Explain your reasoning in the extended commit body. Do not maintain a separate log.md.
 
 ## Frontmatter
 ```yaml
@@ -29,8 +29,10 @@ title: Page Title
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 type: entity | concept | policy | manual | meeting | query | summary
-tags: from taxonomy below
-sources: [raw/articles/source-name.md]
+tags: tag1, tag2, tag3
+sources: raw/articles/source-name.md
+description: A short one-sentence summary for Wiki.js page cards
+isPublished: true
 # Optional quality signals:
 confidence: high | medium | low
 contested: true
@@ -48,3 +50,4 @@ contested: true
 - **Create a page** when an entity/concept is central to operations (e.g., Kanidm, Laser Cutter).
 - **DON'T create a page** for passing mentions or temporary states.
 - **Split a page** when it exceeds ~200 lines.
+

@@ -30,3 +30,4 @@ These tasks run on the Docker host (`10.7.1.25`):
 
 ## Loomio Backups
 - The host directory `/data/compose/10/pgdumps` must be owned by the `postgres` user (**UID 999**).
+

@@ -28,3 +28,4 @@ High-power monitoring and workshop tools.
 - **Primary Ports**: 80 (Web), 554 (RTSP), 8080 (Admin)
 - **Optimization**: H.264 @ 1000kbps for outdoor, H.265 for indoor.
 - **Transport Requirement**: UDP mandatory for stability.
+

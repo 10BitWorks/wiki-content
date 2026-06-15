@@ -29,3 +29,4 @@ Because 10BitWorks mistakenly signed a two-year lease extending through March 20
 
 ## The New Facility
 The new lease agreement for **8610 Botts Ln** was drafted in May 2026. This location was selected for better infrastructure, appropriate zoning for maker/fabrication use, and room in the operational budget.
+

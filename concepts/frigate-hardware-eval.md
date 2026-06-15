@@ -29,3 +29,4 @@ For a 20-40+ camera deployment, **12th Gen or 13th Gen Intel Core-based systems*
 ### Path B: Dedicated Custom Build
 *   **CPU**: Intel Core i5-13500 (14 Cores / 20 Threads)
 *   **Capabilities**: Features dual media engines for massive video throughput. Can be paired with a Coral M.2 for extreme-speed facial recognition, though the iGPU handles standard object tracking effortlessly.
+

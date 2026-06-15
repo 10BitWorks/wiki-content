@@ -51,3 +51,4 @@ Based on the Mega Compressor nameplate (MP-6060VUC):
 
 ## Maintenance Replacement Parts
 - **Pump Intake Filter:** Powswopx 20mm VH901700AV (Barcode/ID: X003JB2TWF)
+
