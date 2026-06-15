@@ -114,7 +114,7 @@ Additional required tags:
 - `equipment`, `laser-cutter`, `3d-printer`, `woodshop`, `metalshop`
 
 **Governance & People**
-- `governance`, `board`, `membership`, `volunteer`
+- `governance`, `board`, `membership`, `contributor`
 
 **Concepts & Evaluations**
 - `evaluation`, `concepts`, `sso`, `passkeys`, `posix`

@@ -1,8 +1,8 @@
 ---
-title: "Contributor profile"
+title: "Greg Thibodeaux"
 created: 2026-06-15
 updated: 2026-06-15
-type: governance
+type: reference
 tags: contributor, board
 description: "Board member profile for Greg Thibodeaux."
 isPublished: true

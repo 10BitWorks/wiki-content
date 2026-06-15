@@ -20,11 +20,11 @@ isPublished: true
 ## Election Nominees
 - N/A
 
-- [Connor Doherty](/volunteers/connor-doherty) (President)
-- [Greg Thibodeaux](/volunteers/greg-thibodeaux) (Board Member)
-- [Eric Spehr](/volunteers/eric-spehr) (Board Member)
-- [Ken Runner](/volunteers/ken-runner) (Board Member)
-- [Hunter Wright](/volunteers/hunter-wright) (Board Member)
+- [Connor Doherty](/contributors/connor) (President)
+- [Greg Thibodeaux](/contributors/greg-thibodeaux) (Board Member)
+- [Eric Spehr](/contributors/eric-spehr) (Board Member)
+- [Ken Runner](/contributors/ken-runner) (Board Member)
+- [Hunter Wright](/contributors/hunter-wright) (Board Member)
 
 ## 2026 Focus
 As of the 2026 facility transition planning, the active Board's primary focus was identifying root causes of membership churn and executing the transition from Lachapelle to the new Botts Lane facility.

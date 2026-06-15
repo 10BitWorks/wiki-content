@@ -1,8 +1,8 @@
 ---
-title: "Contributor profile"
+title: "Ken Runner"
 created: 2026-06-15
 updated: 2026-06-15
-type: governance
+type: reference
 tags: contributor, board
 description: "Board member profile for Ken Runner."
 isPublished: true

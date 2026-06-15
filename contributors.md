@@ -6,7 +6,7 @@ type: reference
 tags: contributor, membership
 ---
 
-# Volunteers
+# Contributors
 
 This section highlights the notable members who have made significant, sustained contributions to the 10BitWorks makerspace. 
 

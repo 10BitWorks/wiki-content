@@ -1,5 +1,5 @@
 ---
-title: Connor
+title: Connor Doherty
 description: "Notable Contributor / Primary Systems Administrator"
 isPublished: true
 type: reference

@@ -1,5 +1,5 @@
 ---
-title: "Contributor profile"
+title: "Eric Schall"
 created: 2026-06-15
 updated: 2026-06-15
 type: reference
