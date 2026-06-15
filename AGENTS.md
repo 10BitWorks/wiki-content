@@ -14,7 +14,7 @@ dateCreated: 2026-06-14T09:51:38.498Z
 10BitWorks Makerspace: IT infrastructure, physical space operations, machine manuals, governance, and organizational knowledge.
 
 ## Conventions
-- File names: lowercase, hyphens, no spaces (e.g., `laser-cutter-sop.md`)
+- File names: lowercase, hyphens, alphanumeric only, absolutely NO quotes or special characters (e.g., `laser-cutter-sop.md`). Wiki.js routing breaks on unescaped characters.
 - Every wiki page starts with YAML frontmatter (see below)
 - Use standard markdown links `[Title](/folder/page-slug)` instead of `[[wikilinks]]` (minimum 2 outbound links per page). Wiki.js handles standard paths better.
 - Feel free to use advanced Markdown (PlantUML, KaTeX, MultiMarkdown tables, Task lists) — the Wiki.js rendering pipeline has full support enabled.
