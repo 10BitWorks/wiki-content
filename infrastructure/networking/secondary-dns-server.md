@@ -2,12 +2,11 @@
 title: "Secondary DNS Server"
 created: 2026-06-14
 updated: 2026-06-15
-type: entity
-tags: network, link-hosted, networking
-description: "Network details and configuration for Secondary DNS Server"
+type: reference
+tags: networking, pihole
+description: "Secondary Pi-hole DNS server and DHCP lease authority for 10BitWorks."
 isPublished: true
 ---
-
 
 - Hostname: pihole1
 - mDNS: pihole1.local
@@ -24,3 +23,16 @@ isPublished: true
 - Port: 19999 (http) - Netdata Monitoring
 - Netdata: Streaming to 10.7.1.7 (Parent)
 
+## Role
+
+This Pi-hole instance acts as a secondary DNS server and DHCP lease authority. It manages a separate DHCP pool from the primary DNS server (`dhcp1` at `10.7.1.9`). When verifying dynamic addresses, check leases on both:
+
+```bash
+ssh root@10.7.1.9 "cat /etc/pihole/dhcp.leases"
+ssh root@10.7.1.8 "cat /etc/pihole/dhcp.leases"
+```
+
+## Related
+
+- [Primary DNS & DHCP Server](/infrastructure/networking/primary-dns-dhcp-server)
+- [Network Inventory](/infrastructure/network-inventory)
