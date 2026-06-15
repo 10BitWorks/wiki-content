@@ -82,6 +82,13 @@ isPublished: true
 - [Hosted Services Maintenance Policy](/policies/hosted-services-maintenance) — Watermark tunings & disk cleanups
 - [Facility Transition Policy](/policies/facility-transition-botts-lane) — Move-out arrangements for Lachapelle
 - [Board of Directors 2026](/governance/board-2026) — Active officers list
+
+## Projects
+
+- [2026 Relocation](/projects/2026-relocation) — Facility move project
+
+## Policies & Governance (continued)
+
 - [Board of Directors 2025](/governance/board-2025) — 2025 roster
 - [Board of Directors 2024](/governance/board-2024) — 2024 roster
 - [Board of Directors 2023](/governance/board-2023) — 2023 roster

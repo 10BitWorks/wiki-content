@@ -73,8 +73,15 @@ infrastructure/
     link-server-proxmox.md
     ...
 
-operations/                     ← facility ops and auth/identity concepts
+operations/                     ← facility ops, auth/identity concepts, and private facility records
   passkeys.md
+  lachapelle-issues.md          ← landing page for /operations/lachapelle-issues (sibling, private)
+  lachapelle-issues/            ↔ facility issue records (private by default)
+
+projects/
+  projects.md                   ← landing page for /projects (sibling)
+  2026-relocation.md            ← landing page for /projects/2026-relocation (sibling)
+  2026-relocation/              ↔ relocation project documents
 
 contributors.md                   ← landing page for /contributors
 contributors/
@@ -167,7 +174,7 @@ isPublished: true
 - `network-inventory.md` is the single source of truth for IP/MAC lookup. It may contain multiple tables (Core, Cameras, IoT, Workshop). Only link to pages that actually exist.
 - **Member Personal Devices** (phones, laptops) are strictly inventory rows in `network-inventory.md`. They never get dedicated pages.
 - **IoT Devices** are considered infrastructure. Put them in `infrastructure/iot/` with a landing page at `infrastructure/iot.md`.
-- **`operations/`**: Physical access control, facility ops, and auth/identity concepts (e.g., passkeys). Cameras, IoT devices, and embedded systems go in `infrastructure/iot/`.
+- **`operations/`**: Facility ops, auth/identity concepts (e.g., passkeys), and private facility records (e.g., lachapelle-issues). Physical access control systems go in `infrastructure/access-control/`. Cameras go in `infrastructure/cameras/`. IoT devices and embedded systems go in `infrastructure/iot/`.
 - **No `evaluations/` or `concepts/` folder**: Evaluation content belongs on the relevant service/device page. Conceptual reference pages belong in the most relevant operational folder.
 - **`contributors/`**: Reserved for notable members (e.g., board members, project leads, or individuals with multiple significant non-financial contributions). Do not create pages for general members. **Filename is first name only** (`connor.md`); full name goes in the `title:` frontmatter. One page per person — merge into the existing page rather than creating a second.
 - **`.raw/`**: A hidden directory used strictly for agent memory (e.g. storing massive extracted text dumps from manuals or unparsed transcripts). Wiki.js ignores directories starting with `.` so these files will not clutter the human UI. Do not put polished content here.

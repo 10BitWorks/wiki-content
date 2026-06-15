@@ -11,3 +11,4 @@ Day-to-day operational systems at 10BitWorks — physical access, facility manag
 ## Pages
 
 - [Passkeys (WebAuthn)](/operations/passkeys) — Authentication framework used across 10BitWorks services
+- [Lachapelle Issues](/operations/lachapelle-issues) — Facility issues at the Lachapelle location (private)
