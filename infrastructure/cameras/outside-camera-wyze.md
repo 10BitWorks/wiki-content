@@ -1,13 +1,12 @@
 ---
-title: "Outside Camera (Wyze)"
+title: Outside Camera (Wyze)
 created: 2026-06-14
 updated: 2026-06-15
-type: entity
-tags: network, operations, pfsense-hosted
-description: "Network details and configuration for Outside Camera (Wyze)"
+type: reference
+tags: cameras, infrastructure, thingino
+description: "Exterior Wyze Cam v3 running Thingino firmware."
 isPublished: true
 ---
-
 
 - Hostname: cam-wyze3-outside (Lease: cam-wyze3-outside)
 - mDNS: cam-wyze3-outside.local (Legacy: cam-wyze3-front)
@@ -18,14 +17,19 @@ isPublished: true
 - Port: 80 (http) - Thingino Web Interface
 - Port: 554 (rtsp) - RTSP Camera Stream
 - Port: 8080 (admin) - Thingino Admin/Debug UI
+
 > Configured as `outside` in Frigate NVR config.
 > {.is-info}
 
-
-
 ## Firmware Details
+
 - **OS**: Thingino Linux (Build 2026.x)
 - **Primary Ports**: 80 (Web), 554 (RTSP), 8080 (Admin)
 - **Optimization**: H.264 @ 1000kbps for outdoor, H.265 for indoor.
 - **Transport Requirement**: UDP mandatory for stability.
 
+## Related
+
+- [Frigate NVR](/app-services/self-hosted/frigate)
+- [Cameras](/infrastructure/cameras)
+- [Frigate mDNS Proxy](/app-services/self-hosted/frigate#mdns-proxy) for `.local` resolution

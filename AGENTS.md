@@ -47,8 +47,17 @@ infrastructure/
     access-card-system.md
     front-door-pi-controllers.md
     cardmaker-pi.md
+  cameras.md                    ← landing page for /infrastructure/cameras (sibling)
+  cameras/                      ↔ security cameras and vision hardware
+    amcrest-turret-camera.md
+    outside-camera-wyze.md
+    doorbell-camera-wyze-v1.md
+    kiln-area-camera.md
+    laser-room-camera.md
+    woodshop-camera.md
+    frigate-hardware-evaluation.md
   iot.md                        ← landing page for /infrastructure/iot (sibling)
-  iot/                          ← cameras, embedded systems, IoT devices
+  iot/                          ← sensors and embedded systems (not cameras)
     kiln-monitor.md
     digital-signage-player.md
     ...

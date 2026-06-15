@@ -58,14 +58,14 @@ Only entries with significant operational depth have their own wiki pages (hyper
 
 | Device / Title | Hostname | IP | MAC | Model / OS | Ports / Notes |
 |---|---|---|---|---|---|
-| Front of Shop | - | - | - | Amcrest Turret (4MP) | [Amcrest Turret Camera](/infrastructure/iot/amcrest-turret-camera) |
-| Outside Camera | - | - | - | Wyze v3 (Thingino) | [Outside Camera](/infrastructure/iot/outside-camera-wyze) |
-| Kilns Camera | - | - | - | Wyze v3 (Thingino) | [Kilns Camera](/infrastructure/iot/kiln-area-camera) |
-| Kiln Monitor | kiln-mon | 10.7.1.xxx | - | Raspberry Pi / Custom script | [Kiln Monitor](/infrastructure/iot/kiln-monitor) |
-| Laser Room Camera | - | - | - | Wyze v3 (Thingino) | [Laser Room Camera](/infrastructure/iot/laser-room-camera) |
-| Woodshop Camera | - | - | - | Wyze v3 (Thingino) | [Woodshop Camera](/infrastructure/iot/woodshop-camera) |
-| Doorbell Camera | doorbell | 10.7.1.121 | - | Wyze Doorbell v1 (Thingino) | [Doorbell Camera](/infrastructure/iot/doorbell-camera-wyze-v1) |
+| Front of Shop | Amcrest1 | 10.7.1.61 | 30:DD:AA:80:9F:89 | Amcrest IPC-T54IR-AS-S3 / Amcrest Firmware | [Amcrest Turret Camera](/infrastructure/cameras/amcrest-turret-camera) |
+| Outside Camera | cam-wyze3-outside | 10.7.1.100 (DHCP) | 02:10:5D:64:85:38 | Wyze Cam v3 / Thingino | [Outside Camera (Wyze)](/infrastructure/cameras/outside-camera-wyze) |
+| Kilns Camera | cam-kilns | 10.7.1.137 (DHCP) | 02:3A:78:84:CB:18 | Wyze Cam v3 / Thingino | [Kiln Area Camera](/infrastructure/cameras/kiln-area-camera) |
+| Laser Room Camera | cam-laser | 10.7.1.131 (DHCP) | 02:F9:1F:5A:98:84 | Wyze Cam v3 / Thingino | [Laser Room Camera](/infrastructure/cameras/laser-room-camera) |
+| Woodshop Camera | cam-wood | 10.7.1.143 (DHCP) | 02:96:3E:67:F6:CC | Wyze Cam v3 / Thingino | [Woodshop Camera](/infrastructure/cameras/woodshop-camera) |
+| Doorbell Camera | doorbell-wyze1 | 10.7.1.121 (DHCP) | 02:74:51:53:96:e8 | Wyze Doorbell v1 / Thingino | [Doorbell Camera (Wyze v1)](/infrastructure/cameras/doorbell-camera-wyze-v1) |
 | PTZ Camera (Glados) | Glados | 10.7.1.170 (DHCP) | F0:00:06:24:0C:4B | Jennov PTZ Camera | 554 (rtsp) - RTSP |
+| Frigate NVR | cameras | 10.7.1.31 (Static) | - | Debian LXC on Link / Frigate | [Frigate NVR](/app-services/self-hosted/frigate) |
 
 ---
 
@@ -74,6 +74,7 @@ Only entries with significant operational depth have their own wiki pages (hyper
 | Device / Title | Hostname | IP | MAC | Model / OS | Ports / Notes |
 |---|---|---|---|---|---|
 | Energy Monitor (Emporia) | Emporia | 10.7.1.127 (DHCP) | B8:F0:09:83:33:F4 | Emporia Vue Energy Monitor | - |
+| Kiln Monitor | kiln-mon | 10.7.1.xxx (DHCP) | - | Raspberry Pi / Custom script | [Kiln Monitor](/infrastructure/iot/kiln-monitor) |
 | Epson Network Printer | EPSONC7D47D | 10.7.1.185 (DHCP) | 9C:AE:D3:C7:D4:7D | Network Printer | - |
 | Roku (Hisense Smart TV) | Bedroom | 10.7.1.147 (DHCP) | 1C:30:08:95:BC:1E | Hisense Smart TV | Roku OS |
 | Generic IoT Module 1 | Unknown | 10.7.1.103 (DHCP) | 94:3C:C6:52:75:E0 | Espressif (ESP32/ESP8266) | - |

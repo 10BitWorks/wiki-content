@@ -31,16 +31,20 @@ isPublished: true
 - [Front Door Pi Controllers](/infrastructure/access-control/front-door-pi-controllers) — Door controller hardware and software
 - [Cardmaker Pi](/infrastructure/access-control/cardmaker-pi) — Card badge provisioning station
 
-## Infrastructure — IoT & Cameras
+## Infrastructure — Cameras
 
-- [Frigate NVR Server](/infrastructure/iot/frigate-nvr-server) — Shop security camera server
-- [Amcrest Turret Camera](/infrastructure/iot/amcrest-turret-camera) — Front of shop vision
-- [Outside Camera (Wyze)](/infrastructure/iot/outside-camera-wyze) — Outside space vision
-- [Doorbell Camera (Wyze v1)](/infrastructure/iot/doorbell-camera-wyze-v1) — Entrance doorbell
-- [Kiln Area Camera](/infrastructure/iot/kiln-area-camera) — Kiln area vision
+- [Frigate NVR](/app-services/self-hosted/frigate) — Network video recorder service
+- [Amcrest Turret Camera](/infrastructure/cameras/amcrest-turret-camera) — Front of shop vision
+- [Outside Camera (Wyze)](/infrastructure/cameras/outside-camera-wyze) — Outside space vision
+- [Doorbell Camera (Wyze v1)](/infrastructure/cameras/doorbell-camera-wyze-v1) — Entrance doorbell
+- [Kiln Area Camera](/infrastructure/cameras/kiln-area-camera) — Kiln area vision
+- [Laser Room Camera](/infrastructure/cameras/laser-room-camera) — Laser room vision
+- [Woodshop Camera](/infrastructure/cameras/woodshop-camera) — Woodshop space vision
+- [Frigate Hardware Evaluation](/infrastructure/cameras/frigate-hardware-evaluation) — Scaling analysis
+
+## Infrastructure — IoT
+
 - [Kiln Monitor](/infrastructure/iot/kiln-monitor) — Thermal sensor automation script
-- [Laser Room Camera](/infrastructure/iot/laser-room-camera) — Laser room vision
-- [Woodshop Camera](/infrastructure/iot/woodshop-camera) — Woodshop space vision
 - [Digital Signage Player](/infrastructure/iot/digital-signage-player) — Xibo player client
 
 ## Operations

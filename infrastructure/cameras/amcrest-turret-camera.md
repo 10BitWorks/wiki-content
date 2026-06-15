@@ -1,13 +1,12 @@
 ---
-title: "Amcrest turret Camera (front of shop)"
+title: Amcrest Turret Camera (front of shop)
 created: 2026-06-14
 updated: 2026-06-15
-type: entity
-tags: network, operations, pfsense-hosted
-description: "Network details and configuration for Amcrest turret Camera (front of shop)"
+type: reference
+tags: cameras, infrastructure, amcrest
+description: "Front-of-shop Amcrest turret camera connected to Frigate NVR."
 isPublished: true
 ---
-
 
 - Hostname: Amcrest1
 - mDNS: Supported (10bit-amcrest-front.local)
@@ -18,14 +17,12 @@ isPublished: true
 - Port: 80 (http) - Web UI
 - Port: 554 (rtsp) - RTSP Camera Stream (Native AAC)
 - Port: 37777 (dahua) - Private Management Port
+
 > Credentials are `admin` / `FJrelt%%%4$`. Supports AI SSA, WDR, and IR/White Light.
 > {.is-info}
---
-r doorbell_entry.txt
-
-
 
 ## Amcrest IPC-T54IR-AS-S3 Features
+
 - **AI SSA (AI Scene Self-adaptation):** Automatically adjusts image parameters.
 - **Support:** WDR, HLC, BLC, and 3D Noise Reduction.
 - **Encoding:** Up to 2688x1520 (4MP) @ 30 FPS. Smart H.264+/H.265+.
@@ -33,3 +30,7 @@ r doorbell_entry.txt
 - **Protocols:** RTSP, ONVIF, CGI API control.
 - **Audio:** Built-in Mic/Speaker (AAC support).
 
+## Related
+
+- [Frigate NVR](/app-services/self-hosted/frigate)
+- [Cameras](/infrastructure/cameras)

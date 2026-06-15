@@ -1,13 +1,12 @@
 ---
-title: "Kiln Area Camera"
+title: Kiln Area Camera
 created: 2026-06-14
 updated: 2026-06-15
-type: entity
-tags: network, operations, pfsense-hosted
-description: "Network details and configuration for Kiln Area Camera"
+type: reference
+tags: cameras, infrastructure, thingino
+description: "Wyze Cam v3 running Thingino firmware, monitoring the kiln area."
 isPublished: true
 ---
-
 
 - Hostname: cam-kilns
 - mDNS: 10bit-wyze3-kilns.local (Legacy: cam-wyze3-kilns)
@@ -19,11 +18,15 @@ isPublished: true
 - Port: 554 (rtsp) - RTSP Camera Stream
 - Port: 8080 (admin) - Thingino Admin/Debug UI
 
-
-
 ## Firmware Details
+
 - **OS**: Thingino Linux (Build 2026.x)
 - **Primary Ports**: 80 (Web), 554 (RTSP), 8080 (Admin)
-- **Optimization**: H.264 @ 1000kbps for outdoor, H.265 for indoor.
+- **Optimization**: H.265 for indoor.
 - **Transport Requirement**: UDP mandatory for stability.
 
+## Related
+
+- [Frigate NVR](/app-services/self-hosted/frigate)
+- [Cameras](/infrastructure/cameras)
+- [Kiln Monitor](/infrastructure/iot/kiln-monitor)
