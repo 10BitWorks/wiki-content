@@ -32,9 +32,12 @@ app-services/
 
 equipment.md                    ← landing page for /equipment
 equipment/
-  laser-cutter.md
   3d-printer-murderbot.md
   ...
+
+evaluations.md                  ← landing page for /evaluations
+evaluations/
+  frigate-hardware-eval.md
 
 governance.md                   ← landing page for /governance
 governance/
@@ -43,28 +46,30 @@ governance/
 
 infrastructure/
   network-inventory.md          ← master device table (always at this path)
+  iot.md                        ← landing page for /infrastructure/iot (sibling)
+  iot/                          ← cameras, embedded systems, IoT devices
+    frigate-nvr-server.md
+    cardmaker-pi.md
+    ...
   networking.md                 ← landing page for /infrastructure/networking (sibling)
   networking/
     pfsense.md
     headscale.md
-    tailscale.md
+    passkeys.md
+    ...
   servers.md                    ← landing page for /infrastructure/servers (sibling)
   servers/
     zelda-server-proxmox.md
     link-server-proxmox.md
     ...
 
-operations/
-  front-door-access.md
-  cameras-frigate.md
-  digital-signage.md
+operations/                     ← physical access control and facility ops ONLY
+  front-door-access-system.md
 
 volunteers.md                   ← landing page for /volunteers
 volunteers/
   connor.md                     ← notable member profiles
   ...
-
-concepts/
 ```
 
 ### Naming & Path Rules
@@ -114,8 +119,8 @@ Additional required tags:
 **Governance & People**
 - `governance`, `board`, `membership`, `volunteer`
 
-**Concepts**
-- `concepts`, `sso`, `passkeys`, `posix`
+**Concepts & Evaluations**
+- `evaluation`, `concepts`, `sso`, `passkeys`, `posix`
 
 **Meta**
 - `network-inventory`, `meeting-notes`, `policy`
@@ -151,9 +156,11 @@ isPublished: true
 
 - `network-inventory.md` is the single source of truth for IP/MAC lookup. It may contain multiple tables (Core, Cameras, IoT, Workshop). Only link to pages that actually exist.
 - **Member Personal Devices** (phones, laptops) are strictly inventory rows in `network-inventory.md`. They never get dedicated pages.
-- **IoT Devices** are considered infrastructure. If they need a page, put it in `infrastructure/iot/` or alongside networking, not in a generic devices folder.
+- **IoT Devices** are considered infrastructure. Put them in `infrastructure/iot/` with a landing page at `infrastructure/iot.md`.
+- **`operations/`**: Reserved strictly for physical access control and facility operations (e.g., front door system). Cameras, IoT devices, and embedded systems go in `infrastructure/iot/`.
+- **`evaluations/`**: Research notes and hardware/software evaluations. Landing page at `evaluations.md`.
 - **`volunteers/`**: Reserved for notable members (e.g., board members, project leads, or individuals with multiple significant non-financial contributions). Do not create pages for general members.
 - **`.raw/`**: A hidden directory used strictly for agent memory (e.g. storing massive extracted text dumps from manuals or unparsed transcripts). Wiki.js ignores directories starting with `.` so these files will not clutter the human UI. Do not put polished content here.
 
 ---
-*Last updated: 2026-06-15 — Corrected folder landing page convention: index pages are siblings of their folder, not inside it.*
+*Last updated: 2026-06-15 — Corrected folder landing page convention (siblings not children); restructured operations/ to access-control only; moved IoT/cameras to infrastructure/iot/; renamed concepts/ to evaluations/.*

@@ -4,17 +4,18 @@ description: "Content catalog for the 10BitWorks knowledge base."
 isPublished: true
 ---
 
-# 10BitWorks Wiki Index
-
 > Content catalog for 10BitWorks. Every wiki page listed under its type with a one-line summary.
 > Last updated: 2026-06-15
+{.is-info}
 
-## Infrastructure & Servers
+## Infrastructure — Servers
 
 - [Zelda Server (Proxmox)](/infrastructure/servers/zelda-server-proxmox) — Main hypervisor (Dell Wyse 5070)
 - [Link Server (Proxmox)](/infrastructure/servers/link-server-proxmox) — Secondary hypervisor
-- [Oracle Cloud Instance](/infrastructure/servers/oracle-cloud) — Primary public-facing node (Coolify)
 - [Network Inventory](/infrastructure/network-inventory) — Master device IP and MAC lookup tables
+
+## Infrastructure — Networking
+
 - [Primary DNS & DHCP Server](/infrastructure/networking/primary-dns-dhcp-server) — DNS & DHCP services
 - [Secondary DNS Server](/infrastructure/networking/secondary-dns-server) — Secondary Pi-hole DNS
 - [Core Network Switch](/infrastructure/networking/core-network-switch) — Core network switch details
@@ -22,8 +23,26 @@ isPublished: true
 - [Headscale](/infrastructure/networking/headscale-coordination-server) — Coordination server for overlay mesh VPN
 - [Tailscale Exit Node (Kudu)](/infrastructure/networking/tailscale-exit-node-kudu) — Remote routing node
 - [Tailscale Exit Node (LAC)](/infrastructure/networking/tailscale-exit-node-lac) — Remote routing node
+- [Passkeys (WebAuthn)](/infrastructure/networking/passkeys) — Secure authentication overview
 
-## Hosted Services
+## Infrastructure — IoT & Cameras
+
+- [Frigate NVR Server](/infrastructure/iot/frigate-nvr-server) — Shop security camera server
+- [Amcrest Turret Camera](/infrastructure/iot/amcrest-turret-camera) — Front of shop vision
+- [Outside Camera (Wyze)](/infrastructure/iot/outside-camera-wyze) — Outside space vision
+- [Doorbell Camera (Wyze v1)](/infrastructure/iot/doorbell-camera-wyze-v1) — Entrance doorbell
+- [Kiln Area Camera](/infrastructure/iot/kiln-area-camera) — Kiln area vision
+- [Kiln Monitor](/infrastructure/iot/kiln-monitor) — Thermal sensor automation script
+- [Laser Room Camera](/infrastructure/iot/laser-room-camera) — Laser room vision
+- [Woodshop Camera](/infrastructure/iot/woodshop-camera) — Woodshop space vision
+- [Cardmaker Pi](/infrastructure/iot/cardmaker-pi) — Card badge processing Raspberry Pi
+- [Digital Signage Player](/infrastructure/iot/digital-signage-player) — Xibo player client
+
+## Operations
+
+- [Front Door Access System](/operations/front-door-access-system) — Physical access security
+
+## App Services — Self-Hosted
 
 - [Kanidm](/app-services/self-hosted/kanidm) — Directory service and identity provider
 - [Wiki VM on Zelda](/app-services/self-hosted/wiki-vm-on-zelda) — Local Wiki.js hypervisor host
@@ -42,33 +61,24 @@ isPublished: true
 - [Xibo](/app-services/self-hosted/xibo) — Digital signage management
 - [Zammad](/app-services/self-hosted/zammad) — Support ticketer
 
-## Operations
-
-- [Front Door Access System](/operations/front-door-access-system) — Physical access security policies
-- [Frigate NVR Server](/operations/frigate-nvr-server) — Shop security camera server
-- [Amcrest Turret Camera](/operations/amcrest-turret-camera) — Front of shop vision
-- [Outside Camera](/operations/outside-camera-wyze) — Outside space vision
-- [Doorbell Camera](/operations/doorbell-camera-wyze-v1) — Entrance doorbell
-- [Kiln Camera](/operations/kiln-area-camera) — Kiln area vision
-- [Kiln Monitor](/operations/kiln-monitor) — Thermal sensor automation script
-- [Laser Camera](/operations/laser-room-camera) — Laser room vision
-- [Woodshop Camera](/operations/woodshop-camera) — Woodshop space vision
-- [Cardmaker Pi](/operations/cardmaker-pi) — Card badge processing Raspberry Pi
-- [Digital Signage Player](/operations/digital-signage-player) — Xibo player client
-
 ## Equipment
 
 - [3D Printer (murderbot)](/equipment/3d-printer-murderbot) — Prusa MK4 3D printer SOP
 - [Sovol SV08 (3D Printer)](/equipment/sovol-sv08-3d-printer) — Sovol 3D printer SOP
-- [Laser Cutter](/equipment/laser-cutter) — Laser room cutter operations
+- [Air Compressor (Grizzly G0954)](/equipment/air-compressor-grizzly-g0954) — Air compressor SOP
 
 ## Policies & Governance
 
 - [Hosted Services Maintenance Policy](/policies/hosted-services-maintenance) — Watermark tunings & disk cleanups
 - [Facility Transition Policy](/policies/facility-transition-botts-lane) — Move-out arrangements for Lachapelle
-- [Roster of the 2026 Board of Directors](/governance/board-of-directors-2026) — Active officers list
+- [Board of Directors 2026](/governance/board-2026) — Active officers list
+- [Board of Directors 2025](/governance/board-2025) — 2025 roster
+- [Board of Directors 2024](/governance/board-2024) — 2024 roster
+- [Board of Directors 2023](/governance/board-2023) — 2023 roster
+- [Board of Directors 2022](/governance/board-2022) — 2022 roster
+- [Board of Directors 2021](/governance/board-2021) — 2021 roster
+- [Board of Directors 2018](/governance/board-2018) — 2018 roster
 
-## Concepts
+## Evaluations
 
-- [Frigate AI Inference Hardware](/concepts/frigate-hardware-eval) — Acceleration hardware evaluation
-- [Passkeys (WebAuthn)](/concepts/passkeys) — Secure authentication overview
+- [Frigate AI Inference Hardware](/evaluations/frigate-hardware-eval) — Acceleration hardware evaluation
