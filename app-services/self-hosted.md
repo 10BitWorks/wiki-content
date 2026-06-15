@@ -23,6 +23,7 @@ Applications running in Docker containers on local servers (Zelda, Link) or clou
 - [Loomio](/app-services/self-hosted/loomio) — Group decision-making
 - [MCP](/app-services/self-hosted/mcp) — Model context protocol server
 - [n8n](/app-services/self-hosted/n8n) — Workflow automation
+- [Phone Assistant](/app-services/self-hosted/phone-assistant) — Voice-based member phone assistant
 - [Plane](/app-services/self-hosted/plane) — Project management
 - [ResourceSpace](/app-services/self-hosted/resourcespace) — Digital asset management
 - [Vaultwarden](/app-services/self-hosted/vaultwarden) — Password manager

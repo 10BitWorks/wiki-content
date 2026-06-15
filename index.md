@@ -62,6 +62,7 @@ isPublished: true
 - [Dozzle](/app-services/self-hosted/dozzle) — Log viewing daemon
 - [Loomio](/app-services/self-hosted/loomio) — Consensus and decision-making platform
 - [n8n](/app-services/self-hosted/n8n) — Automation engine
+- [Phone Assistant](/app-services/self-hosted/phone-assistant) — Voice-based member phone assistant
 - [Plane](/app-services/self-hosted/plane) — Planning board
 - [ResourceSpace](/app-services/self-hosted/resourcespace) — Digital asset management
 - [Vaultwarden](/app-services/self-hosted/vaultwarden) — Password manager
