@@ -20,14 +20,14 @@ See also the high-level [Access Card System](/infrastructure/access-control/acce
 *   **Hardware**: Raspberry Pi 3B+. Uses **Pin 12** (Board mode) for the door latch. No external LEDs.
 *   **Software**: Monolithic `access_10Bit.py` path `/home/chale/latch_access/new_lock/access_10Bit.py`.
 *   **Polling Behavior**: Uses blocking `rfid.read()`, resulting in ~100% CPU usage during polling.
-*   **Access**: `chale:password` via SSH (22) or XRDP (3389).
+*   **Access**: `[REDACTED]` via SSH (22) or XRDP (3389).
 
 ### cobalt (10.7.1.59)
 
 *   **Role**: Secondary Door Controller.
 *   **Hardware**: Raspberry Pi 3B+. Uses **Pin 16** (Board mode) for the door latch. Includes active support for status LEDs (Red, White, Blue) and a Piezo buzzer.
 *   **Software**: Modular state machine `my_door.py` path `/home/pi/my_door/my_door.py` with non-blocking `rfid.read_no_block()`, reducing CPU usage to ~22%.
-*   **Access**: `pi:raspberry` via SSH.
+*   **Access**: `[REDACTED]` via SSH.
 *   **Network Constraints**:
     *   Uses `bond0` (Linux Bonding active-backup via eth0 `B8:27:EB:B2:60:42` and wlan0 `B8:27:EB:E7:35:17`).
     *   Tailscale constraints: MUST NOT advertise routes (`--advertise-routes=""`) and MUST NOT accept routes (`--accept-routes=false`) to prevent local subnet hijacking.

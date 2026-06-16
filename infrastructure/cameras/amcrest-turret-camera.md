@@ -18,7 +18,7 @@ isPublished: true
 - Port: 554 (rtsp) - RTSP Camera Stream (Native AAC)
 - Port: 37777 (dahua) - Private Management Port
 
-> Credentials are `admin` / `FJrelt%%%4$`. Supports AI SSA, WDR, and IR/White Light.
+> Supports AI SSA, WDR, and IR/White Light.
 > {.is-info}
 
 ## Amcrest IPC-T54IR-AS-S3 Features

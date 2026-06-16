@@ -16,7 +16,7 @@ The Cardmaker Pi provisions RFID access cards for 10BitWorks members.
 - Model: Raspberry Pi
 - Port: 22 (ssh) - Pi Management
 
-> SSH user is `chale`, password `c@rdmaker`
+> SSH user is `chale`; password is `[REDACTED]`.
 > {.is-info}
 
 ## Software Stack
