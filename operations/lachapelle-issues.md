@@ -4,7 +4,6 @@ description: "Documented facility issues at the Lachapelle location."
 isPublished: true
 type: reference
 tags: operations, facility, lachapelle
-isPrivate: true
 ---
 
 # Lachapelle Issues
@@ -33,5 +32,5 @@ Operational record of facility problems at the Lachapelle location. These docume
 - [Water Heater Sabotage](/operations/lachapelle-issues/water-heater-sabotage)
 - [Water Leak Liability](/operations/lachapelle-issues/water-leak-liability)
 
-> These records are private to the organization.
+> These records are restricted to the organization via Wiki.js page rules.
 > {.is-danger}

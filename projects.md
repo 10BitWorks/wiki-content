@@ -24,4 +24,4 @@ projects/
   <project-name>/            ↔ detailed documents, meeting notes, files
 ```
 
-Sensitive project documents should be marked `isPrivate: true` in their frontmatter.
+Sensitive project documents are kept private via Wiki.js Guest group page rules.

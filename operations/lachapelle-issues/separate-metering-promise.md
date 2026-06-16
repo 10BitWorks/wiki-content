@@ -5,7 +5,6 @@ updated: 2026-06-15
 type: reference
 tags: operations, facility, lachapelle
 isPublished: true
-isPrivate: true
 description: "Grievance: 9-Year Failure to Provide Separate Utility Metering (Systemic Management Neglect)"
 ---
 

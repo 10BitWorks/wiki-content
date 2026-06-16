@@ -51,7 +51,7 @@ isPublished: true
 
 - [Passkeys (WebAuthn)](/operations/passkeys) — Secure authentication overview
 - [Safe Systems Administration](/operations/safe-systems-administration) — Rules of thumb for infrastructure maintenance
-- [Lachapelle Issues](/operations/lachapelle-issues) — Facility issues at the Lachapelle location (private)
+- [Lachapelle Issues](/operations/lachapelle-issues) — Facility issues at the Lachapelle location (restricted)
 
 ## App Services — Self-Hosted
 

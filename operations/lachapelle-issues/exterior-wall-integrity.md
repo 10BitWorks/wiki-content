@@ -5,7 +5,6 @@ updated: 2026-06-15
 type: reference
 tags: operations, facility, lachapelle
 isPublished: true
-isPrivate: true
 description: "Grievance: Exterior Wall Integrity ("Swiss Cheese" Siding) and Resulting Infestations"
 ---
 

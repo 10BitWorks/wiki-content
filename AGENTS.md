@@ -75,8 +75,8 @@ infrastructure/
 
 operations/                     ← facility ops, auth/identity concepts, and private facility records
   passkeys.md
-  lachapelle-issues.md          ← landing page for /operations/lachapelle-issues (sibling, private)
-  lachapelle-issues/            ↔ facility issue records (private by default)
+  lachapelle-issues.md          ← landing page for /operations/lachapelle-issues (sibling)
+  lachapelle-issues/            ↔ facility issue records
 
 projects/
   projects.md                   ← landing page for /projects (sibling)

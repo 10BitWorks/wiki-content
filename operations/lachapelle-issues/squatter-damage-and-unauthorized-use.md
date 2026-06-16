@@ -5,7 +5,6 @@ updated: 2026-06-15
 type: reference
 tags: operations, facility, lachapelle
 isPublished: true
-isPrivate: true
 description: "Grievance: Unauthorized Access, Squatter Activity, and Systemic Equipment Sabotage"
 ---
 
