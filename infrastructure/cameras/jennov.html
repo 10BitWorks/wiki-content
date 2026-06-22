@@ -1,0 +1,61 @@
+<!--
+title: Jennov PTZ Camera ("Glados")
+description: 20x zoom Human-tracking outdoor PoE camera
+published: true
+date: 2026-06-22T20:30:53.234Z
+tags: 
+editor: ckeditor
+dateCreated: 2026-06-22T20:30:53.234Z
+-->
+
+<p>A fancy eyeball camera purchased for large-area monitoring and zooming in on individual activity.</p>
+<figure class="image image-style-align-right"><img src="https://jennov.com/wp-content/uploads/2024/07/P87HM-150x150.jpg" alt="" srcset="https://jennov.com/wp-content/uploads/2024/07/P87HM-150x150.jpg 150w, https://jennov.com/wp-content/uploads/2024/07/P87HM-300x300.jpg 300w, https://jennov.com/wp-content/uploads/2024/07/P87HM-768x768.jpg 768w, https://jennov.com/wp-content/uploads/2024/07/P87HM-320x320.jpg 320w, https://jennov.com/wp-content/uploads/2024/07/P87HM-800x800.jpg 800w, https://jennov.com/wp-content/uploads/2024/07/P87HM.jpg 1000w" sizes="100vw" width="150">
+  <figcaption>Nickname “Glados”</figcaption>
+</figure>
+<p>&nbsp;</p>
+<h2>Manufacturer Documentation</h2>
+<p>Seems to be the M-series with PDF manuals on this page: https://jennov.com/support/#1720540233490-67cb95ed-e922</p>
+<p>Pretty sparse and poorly translated, so be sure to pull any important notes into this page.</p>
+<p>M-Series FAQ: https://jennov.com/faq-videolink/</p>
+<p>&nbsp;</p>
+<h2>Purchase</h2>
+<p>Purchased via Jennov website by Connor in 2025. Pricey, but still a cheap rebranding of a Hikvision camera that's much more expensive.</p>
+<p>&nbsp;</p>
+<h2>Preset Codes</h2>
+<p>Call a preset to pan and zoom to that remembered position. But there are number of somewhat secret preset codes:</p>
+<p>&nbsp;</p>
+<h3>Factory Reset</h3>
+<p>Avoid this unless there's problems, will lose all saved positions!</p>
+<ul>
+  <li>Call Preset 115</li>
+  <li>Set Preset 40</li>
+  <li>Call Preset 33 to just remove all Preset PTZ points</li>
+</ul>
+<p>&nbsp;</p>
+<h3>Cruise Mode - Travel from point to point continuously</h3>
+<ul>
+  <li>Call Preset 41: "The 1 cruise line (preset positions 1-32)"</li>
+  <li>Call Preset 42: "The 2 cruise line (preset positions 17-32)"</li>
+  <li>Set Preset 93+ Set N (the value of N is 20-255): “Tracking mode: Tracking time setting”</li>
+  <li>Set Preset 94+ Set N (the value of N is 1-255): “Tracking mode: Return time setting”</li>
+  <li>Call Preset 93: “Tracking mode: Turn on cruise line tracking”</li>
+</ul>
+<p>&nbsp;</p>
+<h3>Infrared Light</h3>
+<ul>
+  <li>Call 82 to turn on IR-CUT</li>
+  <li>Call 83 to turn off IR-CUT</li>
+  <li>Call 81 to set IR-CUT back to automatic</li>
+</ul>
+<p>This can be useful if the camera is blurry or the picture is unusable at night. Call 82 &nbsp;(turn on the infrared light) and wait for about 5s, then call 83 (turn off the infrared light). Call 82 &amp; 83 repeatedly for several times to see if the camera’s pic color can return to normal. Then, please remember to call 81 (automatic color).</p>
+<p>&nbsp;</p>
+<h3>Human Tracking</h3>
+<ul>
+  <li>Call Preset 92.&nbsp;</li>
+  <li>Only works when Intelligent Tracking AND Motion Detection is on.&nbsp;</li>
+  <li>Only Tracks humans.&nbsp;</li>
+  <li>This mode does not persist after reboot - need some way to automate it</li>
+  <li>If the camera ignores calling 92, seems to only be fixed by a reboot.</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
