@@ -1,11 +1,11 @@
 ---
 title: Network Inventory
-created: 2026-06-15
-updated: 2026-06-15
-type: reference
-tags: network-inventory
 description: Master lookup table for all 10BitWorks network devices, IPs, and MAC addresses.
-isPublished: true
+published: true
+date: 2026-06-22T05:07:17.266Z
+tags: network-inventory
+editor: markdown
+dateCreated: 2026-06-15T07:56:05.061Z
 ---
 
 # Network Inventory
@@ -21,19 +21,20 @@ Only entries with significant operational depth have their own wiki pages (hyper
 |---|---|---|---|---|---|
 | Zelda Proxmox Host | zelda | 10.7.1.240 | - | Proxmox Host (Dell Wyse 5070) | [Zelda Server](/infrastructure/servers/zelda-server-proxmox) |
 | Link Proxmox Host | link | 10.7.1.7 | - | Proxmox Host | [Link Server](/infrastructure/servers/link-server-proxmox) |
-| pfSense Firewall / Router | pfsense | 10.7.1.1 | - | Firewall / Router | [pfSense](/infrastructure/networking/pfsense) |
-| Headscale Coordination | headscale | 10.7.1.242 (DHCP) | BC:24:11:27:00:29 (VM 200 on Zelda) | Tailscale Coordination | [Headscale](/infrastructure/networking/headscale-coordination-server) |
+| pfSense Firewall / Router | pfsense | 10.7.1.254 | - | Firewall / Router | [pfSense](/infrastructure/networking/pfsense) |
+| Headscale Coordination | headscale | 10.7.1.242 (Static) | BC:24:11:27:00:29 (VM 200 on Zelda) | Tailscale Coordination | [Headscale](/infrastructure/networking/headscale-coordination-server) |
 | Tailscale Exit Node (LAC) | tail-lac | 10.7.1.104 (DHCP) | BC:24:11:D4:B8:C0 (VM 203 on Zelda) | Proxmox VM 203 / Debian 12 | [Tailscale Exit Node (LAC)](/infrastructure/networking/tailscale-exit-node-lac) |
 | Tailscale Exit Node (Kudu) | tail-kudu | 10.7.1.172 (DHCP) | BC:24:11:BB:03:CB (VM 205 on Zelda) | Proxmox VM 205 / Debian 12 | [Tailscale Exit Node (Kudu)](/infrastructure/networking/tailscale-exit-node-kudu) |
-| Primary DNS & DHCP Server | dhcp1 | 10.7.1.9 (Static) | BC:24:11:96:44:00 (VM 209 on Zelda) | Proxmox VM 209 / Debian (bookworm) | [Primary DNS & DHCP](/infrastructure/networking/primary-dns-dhcp-server) |
+| Primary DNS & DHCP Server | dhcp1 | 10.7.1.37 (Static) | 00:10:e3:67:c3:46 (VM 226 on Zelda) | Proxmox VM 209 / Debian (bookworm) | [Primary DNS & DHCP](/infrastructure/networking/primary-dns-dhcp-server) |
 | Secondary DNS Server | pihole1 | 10.7.1.8 (Static), 10.7.1.181 (DHCP) | B8:27:EB:68:F8:D1, B8:27:EB:3D:AD:84 | Raspberry Pi 3B+ / Debian (bookworm) | [Secondary DNS](/infrastructure/networking/secondary-dns-server) |
-| Core Network Switch | coruscant | 10.7.1.1 (Static) | B4:A8:B9:F2:67:47 | Cisco Catalyst c3850-12x48u-s / IOS 16.06.09 | [Core Network Switch](/infrastructure/networking/core-network-switch) |
+| Virtual ip DHCP | - | 10.7.1.39 | 00:10:E3:67:C3:46 | keepalive IP weighted to Zelda VM 226 tech1 | /etc/keepalived |
+| Core Network Switch | coruscant | 10.7.1.1 (Static) | B4:A8:B9:F2:67:47 | Cisco Catalyst c3850-12x48u-s / IOS 16.06.09 | [Core Network Switch](/infrastructure/networking/core-network-switch) |  | 
 | Shared Oracle ARM Server | 10bitworks | 100.64.0.15 (Tailscale) | - | Oracle Cloud A1.Flex / Ubuntu 24.04 ARM | Shared Oracle ARM Server |
 | New Door Access Controller | cobalt | 10.7.1.59 (Static) | - | Raspberry Pi 3B+ / Raspbian | [Front Door Pi Controllers](/infrastructure/access-control/front-door-pi-controllers) |
 | Old Door Access Controller | frontdoor | 10.7.1.6 (Static) | B8:27:EB:1B:CE:EF | Raspberry Pi 3B+ / Raspbian | [Front Door Pi Controllers](/infrastructure/access-control/front-door-pi-controllers) |
 | Door Admin Panel | door1 | 10.7.1.244 (Static) | - | Proxmox LXC 204 on Zelda / Debian | 8000 (http) - Door Admin Dashboard |
 | Cardmaker Pi | cardPi | 10.7.1.136 (DHCP) | - | Raspberry Pi / Raspbian | [Cardmaker Pi](/infrastructure/access-control/cardmaker-pi) |
-| TP-Link AP | Archer_C7 | 10.7.1.152 (DHCP) | E4:C3:2A:DA:43:E0 | TP-Link Archer C7 / TP-Link Firmware | 80 (http) - Management UI |
+| TP-Link AP | Archer_C7 | 10.7.1.211 (Static) | E4:C3:2A:DA:43:E0 | TP-Link Archer C7 / TP-Link Firmware | 80 (http) - Management UI |
 | Wireless AP Nighthawk | rs70 | 10.7.1.252 (DHCP) | 54:07:7D:E4:0F:88 | Netgear Nighthawk R7000 / Netgear Genie | 80 (http) - Management UI |
 | Upstream ISP Gateway | ATT-Fiber | 192.168.10.254 | - | AT&T BGW Series | 80 (http) - Gateway Web UI |
 | Infrastructure Monitor | uptime | 10.7.1.89 (DHCP) | - | Proxmox LXC 120 on Zelda / Debian | 3001 (http) - Uptime Kuma |
