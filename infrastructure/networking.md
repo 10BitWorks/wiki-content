@@ -1,11 +1,11 @@
 ---
 title: Networking
-created: 2026-06-15
-updated: 2026-06-15
-type: reference
-tags: networking, infrastructure
 description: Core network infrastructure and services documentation.
-isPublished: true
+published: true
+date: 2026-06-23T17:12:19.213Z
+tags: infrastructure, networking
+editor: markdown
+dateCreated: 2026-06-15T20:15:06.139Z
 ---
 
 # Networking
@@ -22,3 +22,5 @@ Documentation for the main networking components at 10BitWorks.
 ## Related
 
 See also the [Network Inventory](/infrastructure/network-inventory) for the full list of IPs and devices.
+## Vlan
+![botts-vlan-network.png](/botts-vlan-network.png){.align-left}
