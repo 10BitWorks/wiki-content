@@ -2,36 +2,58 @@
 title: template tool
 description: template for adding a tool to wiki
 published: true
-date: 2026-06-26T00:01:59.986Z
+date: 2026-06-26T00:03:58.327Z
 tags: template, tool
 editor: code
 dateCreated: 2026-06-25T23:53:51.994Z
 -->
 
 <h1>Tool Overview (replace with tool name)</h1>
-<pre><code class="language-plaintext">| General Info   |                          |
-|----------------|--------------------------|
-| Tool Name      | {{{tool_fullname}}}      |
-| Nickname       | {{{tool_nickname}}}      |
-| Status         | {{{status}}}             |
-| Make           | {{{make}}}               |
-| Model          | {{{model}}}              |
-| Serial         | {{{serial}}}             |
-| Specs          | {{{manufacturer_specs}}} |
-| Manual         | [[Media:{{{manual}}}]]   |
-| 10Bit Data     |                          |
-| Area           | [[{{{area}}}]]           |
-| Location       | {{{location}}}           |
-| Private Owner  | {{{private_owner}}}      |
-| Private Access | {{{private_access}}}     |
-| Training       | {{{training}}}           |
-| Restrictions   | {{{restrictions}}}       |
+<div class="tool-overview" style="display: flex; flex-wrap: wrap; gap: 24px; margin-bottom: 24px;">
 
-&gt; Replace this text with a brief overview of what the tool is, what it does, and any major features.
-&gt;
-&gt; Insert a picture of the tool here:
-&gt; [[File:{{{image}}}|thumb|280px|{{{img_caption}}}]]
-</code></pre>
+      <!-- Tool Image Container -->
+      <div class="tool-image" style="flex: 1 1 300px; max-width: 400px;">
+        <figure style="margin: 0;">
+          <!-- Replace the URL below with the uploaded image path in Wiki.js -->
+          <img src="/path-to-your-images/tool-placeholder.jpg" alt="[Tool Name]" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" />
+          <figcaption style="text-align: center; font-style: italic; margin-top: 8px; opacity: 0.8;">
+            [Insert image caption here]
+          </figcaption>
+        </figure>
+      </div>
+
+      <!-- Tool Specs Container -->
+      <div class="tool-specs" style="flex: 2 1 350px;">
+        <!-- Wiki.js will automatically apply theme styles to standard table tags -->
+        <table>
+          <tbody>
+            <tr><th colspan="2" style="text-align: left; font-size: 1.1em;">General Info</th></tr>
+            <tr><td><strong>Tool Name</strong></td><td>[Full Name]</td></tr>
+            <tr><td><strong>Nickname</strong></td><td>[Nickname]</td></tr>
+            <tr><td><strong>Status</strong></td><td><span class="badge">[Working / Maintenance / Broken]</span></td></tr>
+            <tr><td><strong>Make</strong></td><td>[Manufacturer]</td></tr>
+            <tr><td><strong>Model</strong></td><td>[Model Number]</td></tr>
+            <tr><td><strong>Serial</strong></td><td>[Serial Number]</td></tr>
+            <tr><td><strong>Specs / Manual</strong></td><td><a href="[URL]">[Link to Specs]</a> / <a href="[URL]">[Link to Manual]</a></td></tr>
+
+            <tr><th colspan="2" style="text-align: left; font-size: 1.1em; padding-top: 12px;">10Bit Data</th></tr>
+            <tr><td><strong>Area</strong></td><td>[Woodworking / Metal Shop / etc.]</td></tr>
+            <tr><td><strong>Location</strong></td><td>[Specific Location]</td></tr>
+            <tr><td><strong>Private Owner</strong></td><td>[Owner Name or N/A]</td></tr>
+            <tr><td><strong>Private Access</strong></td><td>[Who can use it]</td></tr>
+            <tr><td><strong>Training</strong></td><td>[Required Training Class]</td></tr>
+            <tr><td><strong>Restrictions</strong></td><td>[Any usage restrictions]</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+> Replace this text with a brief overview of what the tool is, what it does, and any major features at 10BitWorks.
+
+Insert a picture of the tool here:
+[[File:{{{image}}}|thumb|280px|{{{img_caption}}}]]
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <h1>Safety</h1>
