@@ -2,7 +2,7 @@
 title: Networking
 description: Core network infrastructure and services documentation.
 published: true
-date: 2026-06-23T22:32:36.740Z
+date: 2026-06-26T04:34:53.668Z
 tags: infrastructure, networking
 editor: markdown
 dateCreated: 2026-06-15T20:15:06.139Z
@@ -41,4 +41,12 @@ All 10Bitworks local devices should typically reside inside the 10.7.x.x/16 Priv
 10.7.1.254  	NTP
 10.7.17.3   	Cisco Wireless Controller
 ## Vlan
-![botts-vlan-network.png](/botts-vlan-network.png){.align-left}
+
+Vlan1 Mang 10.7.1.0/24
+Vlan 17 Server 10.7.17.0/24
+Vlan 18 Auth 10.7.18.0/24
+Vlan 21 IOTCamera 10.7.21.0/24
+Vlan 22 Other IOT 10.7.22.0/24
+Vlan 23 Printer 10.7.23.0/24
+Vlan 24 Home automation 10.7.24.0/24
+Vlan 7 Members 10.7.7.0/24
