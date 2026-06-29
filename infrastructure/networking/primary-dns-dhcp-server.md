@@ -1,14 +1,14 @@
 ---
-title: "Primary DNS & DHCP Server"
-created: 2026-06-14
-updated: 2026-06-15
-type: entity
-tags: network, primary-dns-hosted, networking
-description: "Network details and configuration for Primary DNS & DHCP Server"
-isPublished: true
+title: Primary DNS & DHCP Server
+description: Network details and configuration for Primary DNS & DHCP Server
+published: true
+date: 2026-06-29T22:25:31.924Z
+tags: network, networking, primary-dns-hosted
+editor: markdown
+dateCreated: 2026-06-14T11:12:09.903Z
 ---
 
-
+# pihole2 (marked for replacement)
 - Hostname: dhcp1
 - mDNS: pihole2.local
 - IP: 10.7.1.9 (Static)
@@ -22,4 +22,7 @@ isPublished: true
 - Netdata: Streaming to 10.7.1.7 (Parent)
 --
 Tailscale/Headscale infrastructure for remote access.
-
+# Retirement
+Only providing DNS replies on 10.7.1.9
+DHCP disabled
+tech2 replacement designated machine for role of DNS secondary
