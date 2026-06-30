@@ -2,19 +2,20 @@
 title: Headscale Coordination Server
 description: Headscale control plane for the 10BitWorks overlay mesh VPN.
 published: true
-date: 2026-06-30T01:55:17.109Z
+date: 2026-06-30T02:09:07.989Z
 tags: network, tailscale, zelda-hosted, headscale
 editor: markdown
 dateCreated: 2026-06-14T11:10:51.421Z
 ---
 
+# System info
 - Hostname: ruby.10bit
 - mDNS: Unsupported
 - IP: 10.7.1.242 (DHCP)
 - MAC: BC:24:11:27:00:29
 - OS: Debian 12 (VM 200 on Zelda)
 - Model: Proxmox VM 200
-- Port: 8080 (http) - Headscale Control Plane
+- Port: 22022 (http) - Headscale traffic forwarded to npm for outbound 443
 
 ## Headscale login server
 `https://ruby.10bitworks.com:443`
