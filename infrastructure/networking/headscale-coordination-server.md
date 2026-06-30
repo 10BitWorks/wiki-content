@@ -1,14 +1,14 @@
 ---
 title: Headscale Coordination Server
-created: 2026-06-14
-updated: 2026-06-15
-type: reference
-tags: network, tailscale, headscale, zelda-hosted
-description: "Headscale control plane for the 10BitWorks overlay mesh VPN."
-isPublished: true
+description: Headscale control plane for the 10BitWorks overlay mesh VPN.
+published: true
+date: 2026-06-30T01:55:17.109Z
+tags: network, tailscale, zelda-hosted, headscale
+editor: markdown
+dateCreated: 2026-06-14T11:10:51.421Z
 ---
 
-- Hostname: headscale
+- Hostname: ruby.10bit
 - mDNS: Unsupported
 - IP: 10.7.1.242 (DHCP)
 - MAC: BC:24:11:27:00:29
@@ -16,6 +16,8 @@ isPublished: true
 - Model: Proxmox VM 200
 - Port: 8080 (http) - Headscale Control Plane
 
+## Headscale login server
+`https://ruby.10bitworks.com:443`
 ## Tailnet Architecture
 
 Headscale provides the coordination server for the 10BitWorks hosted Tailnet. Two exit nodes/subnet routers handle traffic:
