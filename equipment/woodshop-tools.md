@@ -1,11 +1,11 @@
 ---
 title: Woodshop Tools
-created: 2026-07-01
-updated: 2026-07-01
-type: reference
-tags: equipment, woodshop
 description: Inventory of woodshop power tools, machines, and dust collection at 10BitWorks.
-isPublished: true
+published: true
+date: 2026-07-01T23:39:47.022Z
+tags: woodshop, equipment
+editor: markdown
+dateCreated: 2026-07-01T21:50:36.369Z
 ---
 
 Inventory of woodshop machines and power tools. Most entries are tabular records; tools with dedicated SOPs, safety, or maintenance notes are linked from the [Equipment index](/equipment).
@@ -20,7 +20,7 @@ Inventory of woodshop machines and power tools. Most entries are tabular records
 | Resaw Bandsaw | - | - | MiniMax | S45 | AM020597 | - | - | - | - | - | - | 230 | - | - | - | - | - | - | - | - |
 | Planer | yellow planer | - | DeWalt | DW735 | 2006 52-CT 149648 | planer | - | - | - | average | 1 | 115 | 15A peak | - | - | 92 | no | - | - | - |
 | Drill Press | - | - | Delta Rockwell | - | 121-5193 | - | - | - | - | - | - | 115 | 1ph, 6.6A | - | - | - | - | - | - | - |
-| Panel Saw | - | - | Safety Speed Cut | C4 | C95 | - | - | - | - | - | - | 120 | 1ph, 13A | - | - | - | - | - | - | - |
+| Panel Saw | - | - | Safety Speed Cut | C4 | C95 | - | - | - | - | - | 1 | 120 | 13A | - | - | - | - | - | - | - |
 | Router Table | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Drum Sander | - | - | Performax | 22-44 Plus | 6065718 | - | - | - | - | - | 1 | 115 | 15.5A | - | - | - | - | - | - | - |
 | Edge Sander | - | - | Powermatic | 13 | 92130108 | - | - | - | - | - | - | 115 | 20A | - | - | - | - | - | - | - |
