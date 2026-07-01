@@ -96,7 +96,9 @@ Only entries with significant operational depth have their own wiki pages (hyper
 
 ## Workshop Equipment
 
-| Name | Type | IP | MAC | Page / Notes |
+See [Woodshop Tools](/equipment/woodshop-tools) for the full workshop tool inventory. This table only lists networked or already-documented workshop devices.
+
+|| Name | Type | IP | MAC | Page / Notes |
 |---|---|---|---|---|
 | Murderbot | Prusa MK4 | - | - | [3D Printer (murderbot)](/equipment/3d-printer-murderbot) |
 | Sovol SV08 | 3D Printer | - | - | [Sovol SV08 (3D Printer)](/equipment/sovol-sv08-3d-printer) |
